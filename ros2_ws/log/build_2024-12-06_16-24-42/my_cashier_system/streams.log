@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.056s] [  2%] [32mBuilding CXX object CMakeFiles/bill.dir/src/bill_publish_node.cpp.o[0m
+[0.063s] [ 10%] Built target my_cashier_system__rosidl_generator_c
+[0.063s] [ 18%] Built target my_cashier_system__cpp
+[0.063s] [ 18%] [32mBuilding CXX object CMakeFiles/monitor.dir/src/bill_display_node.cpp.o[0m
+[0.063s] [ 18%] [32mBuilding CXX object CMakeFiles/inventory.dir/src/inventory_add_node.cpp.o[0m
+[0.070s] [ 18%] Built target ament_cmake_python_copy_my_cashier_system
+[0.081s] [ 27%] Built target my_cashier_system__rosidl_typesupport_fastrtps_c
+[0.084s] [ 35%] Built target my_cashier_system__rosidl_typesupport_c
+[0.085s] [ 43%] Built target my_cashier_system__rosidl_typesupport_introspection_c
+[0.087s] [ 51%] Built target my_cashier_system__rosidl_typesupport_introspection_cpp
+[0.090s] [ 59%] Built target my_cashier_system__rosidl_typesupport_fastrtps_cpp
+[0.091s] [ 67%] Built target my_cashier_system__rosidl_typesupport_cpp
+[0.116s] [ 67%] Built target my_cashier_system
+[0.142s] [ 70%] Built target my_cashier_system__py
+[0.168s] [ 72%] [32mBuilding C object CMakeFiles/my_cashier_system__rosidl_generator_py.dir/rosidl_generator_py/my_cashier_system/msg/_bill_s.c.o[0m
+[0.193s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/Bill.hpp: No such file or directory
+[0.193s]     2 | #include [01;31m[K"my_cashier_system/msg/Bill.hpp"[m[K
+[0.193s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.193s] compilation terminated.
+[0.195s] gmake[2]: *** [CMakeFiles/bill.dir/build.make:76: CMakeFiles/bill.dir/src/bill_publish_node.cpp.o] Error 1
+[0.195s] gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/bill.dir/all] Error 2
+[0.195s] gmake[1]: *** Waiting for unfinished jobs....
+[0.258s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/Bill.hpp: No such file or directory
+[0.258s]     2 | #include [01;31m[K"my_cashier_system/msg/Bill.hpp"[m[K
+[0.258s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.259s] compilation terminated.
+[0.260s] gmake[2]: *** [CMakeFiles/monitor.dir/build.make:76: CMakeFiles/monitor.dir/src/bill_display_node.cpp.o] Error 1
+[0.260s] gmake[1]: *** [CMakeFiles/Makefile2:648: CMakeFiles/monitor.dir/all] Error 2
+[0.281s] [ 75%] [32m[1mLinking C shared library rosidl_generator_py/my_cashier_system/libmy_cashier_system__rosidl_generator_py.so[0m
+[0.308s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/inventory_add_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/Bill.hpp: No such file or directory
+[0.308s]     2 | #include [01;31m[K"my_cashier_system/msg/Bill.hpp"[m[K
+[0.308s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.308s] compilation terminated.
+[0.311s] gmake[2]: *** [CMakeFiles/inventory.dir/build.make:76: CMakeFiles/inventory.dir/src/inventory_add_node.cpp.o] Error 1
+[0.311s] gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/inventory.dir/all] Error 2
+[0.317s] [ 75%] Built target my_cashier_system__rosidl_generator_py
+[0.342s] running egg_info
+[0.342s] writing my_cashier_system.egg-info/PKG-INFO
+[0.342s] writing dependency_links to my_cashier_system.egg-info/dependency_links.txt
+[0.343s] writing top-level names to my_cashier_system.egg-info/top_level.txt
+[0.344s] reading manifest file 'my_cashier_system.egg-info/SOURCES.txt'
+[0.344s] writing manifest file 'my_cashier_system.egg-info/SOURCES.txt'
+[0.367s] [ 75%] Built target ament_cmake_python_build_my_cashier_system_egg
+[0.369s] gmake: *** [Makefile:146: all] Error 2
+[0.371s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

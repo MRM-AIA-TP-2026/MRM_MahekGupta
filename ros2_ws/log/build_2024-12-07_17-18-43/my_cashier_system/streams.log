@@ -1,0 +1,480 @@
+[0.009s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.062s] [ 50%] Built target bill_publisher_node
+[0.067s] [ 75%] [32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o[0m
+[0.077s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:1:1:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K##[m[K’ in program
+[0.077s]     1 | [01;31m[K##[m[Kinclude <rclcpp/rclcpp.hpp>
+[0.077s]       | [01;31m[K^~[m[K
+[0.134s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:1:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kinclude[m[K’ does not name a type
+[0.134s]     1 | ##[01;31m[Kinclude[m[K <rclcpp/rclcpp.hpp>
+[0.134s]       |   [01;31m[K^~~~~~~[m[K
+[0.135s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[0.135s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[0.135s]                  from [01m[K/usr/include/c++/11/utility:70[m[K,
+[0.135s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[0.135s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__struct.hpp:8[m[K,
+[0.135s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/bill.hpp:7[m[K,
+[0.135s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2[m[K:
+[0.135s] [01m[K/usr/include/c++/11/type_traits:227:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.136s]   227 |   template <typename _Tp, [01;31m[Ksize_t[m[K = sizeof(_Tp)>
+[0.136s]       |                           [01;31m[K^~~~~~[m[K
+[0.136s] [01m[K/usr/include/c++/11/type_traits:431:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.136s]   431 |   template<typename _Tp, [01;31m[Kstd[m[K::size_t _Size>
+[0.136s]       |                          [01;31m[K^~~[m[K
+[0.136s] [01m[K/usr/include/c++/11/type_traits:432:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.136s]   432 |     struct is_array<_Tp[[01;31m[K_Size[m[K]>
+[0.136s]       |                         [01;31m[K^~~~~[m[K
+[0.136s] [01m[K/usr/include/c++/11/type_traits:432:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.136s]   432 |     struct is_array<_Tp[_Size][01;31m[K>[m[K
+[0.136s]       |                               [01;31m[K^[m[K
+[0.137s] [01m[K/usr/include/c++/11/type_traits:537:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knullptr_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.137s]   537 |     struct __is_null_pointer_helper<std::[01;31m[Knullptr_t[m[K>
+[0.137s]       |                                          [01;31m[K^~~~~~~~~[m[K
+[0.137s] [01m[K/usr/include/c++/11/type_traits:537:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.137s]   537 |     struct __is_null_pointer_helper<std::nullptr_t[01;31m[K>[m[K
+[0.137s]       |                                                   [01;31m[K^[m[K
+[0.137s] [01m[K/usr/include/c++/11/type_traits:1361:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.137s]  1361 |     : public integral_constant<std::[01;31m[Ksize_t[m[K, alignof(_Tp)>
+[0.137s]       |                                     [01;31m[K^~~~~~[m[K
+[0.137s] [01m[K/usr/include/c++/11/type_traits:1361:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.138s]  1361 |     : public integral_constant<std::size_t, alignof(_Tp)[01;31m[K>[m[K
+[0.138s]       |                                                         [01;31m[K^[m[K
+[0.138s] [01m[K/usr/include/c++/11/type_traits:1361:57:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.138s] [01m[K/usr/include/c++/11/type_traits:1370:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.138s]  1370 |     : public integral_constant<std::[01;31m[Ksize_t[m[K, 0> { };
+[0.138s]       |                                     [01;31m[K^~~~~~[m[K
+[0.138s] [01m[K/usr/include/c++/11/type_traits:1370:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.138s]  1370 |     : public integral_constant<std::size_t, 0[01;31m[K>[m[K { };
+[0.138s]       |                                              [01;31m[K^[m[K
+[0.139s] [01m[K/usr/include/c++/11/type_traits:1370:46:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.139s] [01m[K/usr/include/c++/11/type_traits:1372:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.139s]  1372 |   template<typename _Tp, [01;31m[Kstd[m[K::size_t _Size>
+[0.139s]       |                          [01;31m[K^~~[m[K
+[0.139s] [01m[K/usr/include/c++/11/type_traits:1373:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.139s]  1373 |     struct rank<_Tp[[01;31m[K_Size[m[K]>
+[0.139s]       |                     [01;31m[K^~~~~[m[K
+[0.139s] [01m[K/usr/include/c++/11/type_traits:1373:27:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.140s]  1373 |     struct rank<_Tp[_Size][01;31m[K>[m[K
+[0.140s]       |                           [01;31m[K^[m[K
+[0.140s] [01m[K/usr/include/c++/11/type_traits:1374:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.140s]  1374 |     : public integral_constant<std::[01;31m[Ksize_t[m[K, 1 + rank<_Tp>::value> { };
+[0.140s]       |                                     [01;31m[K^~~~~~[m[K
+[0.140s] [01m[K/usr/include/c++/11/type_traits:1374:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.140s]  1374 |     : public integral_constant<std::size_t, 1 + rank<_Tp>::value[01;31m[K>[m[K { };
+[0.140s]       |                                                                 [01;31m[K^[m[K
+[0.140s] [01m[K/usr/include/c++/11/type_traits:1374:65:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.140s] [01m[K/usr/include/c++/11/type_traits:1378:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.140s]  1378 |     : public integral_constant<std::[01;31m[Ksize_t[m[K, 1 + rank<_Tp>::value> { };
+[0.140s]       |                                     [01;31m[K^~~~~~[m[K
+[0.141s] [01m[K/usr/include/c++/11/type_traits:1378:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.141s]  1378 |     : public integral_constant<std::size_t, 1 + rank<_Tp>::value[01;31m[K>[m[K { };
+[0.141s]       |                                                                 [01;31m[K^[m[K
+[0.141s] [01m[K/usr/include/c++/11/type_traits:1378:65:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.141s] [01m[K/usr/include/c++/11/type_traits:1383:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.141s]  1383 |     : public integral_constant<std::[01;31m[Ksize_t[m[K, 0> { };
+[0.141s]       |                                     [01;31m[K^~~~~~[m[K
+[0.141s] [01m[K/usr/include/c++/11/type_traits:1383:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.141s]  1383 |     : public integral_constant<std::size_t, 0[01;31m[K>[m[K { };
+[0.142s]       |                                              [01;31m[K^[m[K
+[0.142s] [01m[K/usr/include/c++/11/type_traits:1383:46:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.142s] [01m[K/usr/include/c++/11/type_traits:1385:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.142s]  1385 |   template<typename _Tp, unsigned _Uint, [01;31m[Kstd[m[K::size_t _Size>
+[0.142s]       |                                          [01;31m[K^~~[m[K
+[0.142s] [01m[K/usr/include/c++/11/type_traits:1386:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.142s]  1386 |     struct extent<_Tp[[01;31m[K_Size[m[K], _Uint>
+[0.142s]       |                       [01;31m[K^~~~~[m[K
+[0.142s] [01m[K/usr/include/c++/11/type_traits:1386:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.142s]  1386 |     struct extent<_Tp[_Size], _Uint[01;31m[K>[m[K
+[0.143s]       |                                    [01;31m[K^[m[K
+[0.143s] [01m[K/usr/include/c++/11/type_traits:1387:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.143s]  1387 |     : public integral_constant<std::[01;31m[Ksize_t[m[K,
+[0.143s]       |                                     [01;31m[K^~~~~~[m[K
+[0.143s] [01m[K/usr/include/c++/11/type_traits:1388:45:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.143s]  1388 |                                _Uint == 0 ? [01;31m[K_Size[m[K : extent<_Tp,
+[0.143s]       |                                             [01;31m[K^~~~~[m[K
+[0.143s] [01m[K/usr/include/c++/11/type_traits:1389:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.143s]  1389 |                                                            _Uint - 1>::value[01;31m[K>[m[K
+[0.143s]       |                                                                             [01;31m[K^[m[K
+[0.144s] [01m[K/usr/include/c++/11/type_traits:1389:77:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.144s] [01m[K/usr/include/c++/11/type_traits:1394:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.144s]  1394 |     : public integral_constant<std::[01;31m[Ksize_t[m[K,
+[0.144s]       |                                     [01;31m[K^~~~~~[m[K
+[0.144s] [01m[K/usr/include/c++/11/type_traits:1396:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.144s]  1396 |                                                        _Uint - 1>::value[01;31m[K>[m[K
+[0.144s]       |                                                                         [01;31m[K^[m[K
+[0.144s] [01m[K/usr/include/c++/11/type_traits:1396:73:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.144s] [01m[K/usr/include/c++/11/type_traits:1759:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.144s]  1759 |       { static constexpr [01;31m[Ksize_t[m[K __size = sizeof(_Tp); };
+[0.144s]       |                          [01;31m[K^~~~~~[m[K
+[0.144s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[0.145s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[0.145s]                  from [01m[K/usr/include/c++/11/utility:70[m[K,
+[0.145s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[0.145s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__struct.hpp:8[m[K,
+[0.145s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/bill.hpp:7[m[K,
+[0.145s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2[m[K:
+[0.145s] [01m[K/usr/include/c++/11/type_traits:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.145s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.145s]     1 | // C++11 <type_traits> -*- C++ -*-
+[0.145s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[0.146s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[0.146s]                  from [01m[K/usr/include/c++/11/utility:70[m[K,
+[0.146s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[0.146s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__struct.hpp:8[m[K,
+[0.146s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/bill.hpp:7[m[K,
+[0.146s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2[m[K:
+[0.146s] [01m[K/usr/include/c++/11/type_traits:1761:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.146s]  1761 |     template<[01;31m[Ksize_t[m[K _Sz, typename _Tp, bool = (_Sz <= _Tp::__size)>
+[0.146s]       |              [01;31m[K^~~~~~[m[K
+[0.146s] [01m[K/usr/include/c++/11/type_traits:1761:48:[m[K [01;31m[Kerror: [m[K‘[01m[K_Sz[m[K’ was not declared in this scope
+[0.146s]  1761 |     template<size_t _Sz, typename _Tp, bool = ([01;31m[K_Sz[m[K <= _Tp::__size)>
+[0.147s]       |                                                [01;31m[K^~~[m[K
+[0.147s] [01m[K/usr/include/c++/11/type_traits:1762:14:[m[K [01;31m[Kerror: [m[Kno default argument for ‘[01m[K_Tp[m[K’
+[0.147s]  1762 |       struct [01;31m[K__select[m[K;
+[0.147s]       |              [01;31m[K^~~~~~~~[m[K
+[0.147s] [01m[K/usr/include/c++/11/type_traits:1764:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.147s]  1764 |     template<[01;31m[Ksize_t[m[K _Sz, typename _Uint, typename... _UInts>
+[0.147s]       |              [01;31m[K^~~~~~[m[K
+[0.147s] [01m[K/usr/include/c++/11/type_traits:1765:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_Sz[m[K’ was not declared in this scope
+[0.147s]  1765 |       struct __select<[01;31m[K_Sz[m[K, _List<_Uint, _UInts...>, true>
+[0.147s]       |                       [01;31m[K^~~[m[K
+[0.147s] [01m[K/usr/include/c++/11/type_traits:1765:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.148s]  1765 |       struct __select<_Sz, _List<_Uint, _UInts...>, true[01;31m[K>[m[K
+[0.148s]       |                                                         [01;31m[K^[m[K
+[0.148s] [01m[K/usr/include/c++/11/type_traits:1768:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.148s]  1768 |     template<[01;31m[Ksize_t[m[K _Sz, typename _Uint, typename... _UInts>
+[0.148s]       |              [01;31m[K^~~~~~[m[K
+[0.148s] [01m[K/usr/include/c++/11/type_traits:1769:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_Sz[m[K’ was not declared in this scope
+[0.148s]  1769 |       struct __select<[01;31m[K_Sz[m[K, _List<_Uint, _UInts...>, false>
+[0.148s]       |                       [01;31m[K^~~[m[K
+[0.148s] [01m[K/usr/include/c++/11/type_traits:1769:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.148s]  1769 |       struct __select<_Sz, _List<_Uint, _UInts...>, false[01;31m[K>[m[K
+[0.148s]       |                                                          [01;31m[K^[m[K
+[0.148s] [01m[K/usr/include/c++/11/type_traits:1770:18:[m[K [01;31m[Kerror: [m[K‘[01m[K_Sz[m[K’ was not declared in this scope
+[0.149s]  1770 |       : __select<[01;31m[K_Sz[m[K, _List<_UInts...>>
+[0.149s]       |                  [01;31m[K^~~[m[K
+[0.149s] [01m[K/usr/include/c++/11/type_traits:1770:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.149s]  1770 |       : __select<_Sz, _List<_UInts...[01;31m[K>>[m[K
+[0.149s]       |                                      [01;31m[K^~[m[K
+[0.149s] [01m[K/usr/include/c++/11/type_traits:1761:60:[m[K [01;31m[Kerror: [m[K‘[01m[K__size[m[K’ is not a member of ‘[01m[Kstd::__make_unsigned_selector_base::_List<unsigned char, short unsigned int, unsigned int, long unsigned int, long long unsigned int>[m[K’
+[0.149s]  1761 |     template<size_t _Sz, typename _Tp, bool = (_Sz <= _Tp::[01;31m[K__size[m[K)>
+[0.149s]       |                                                            [01;31m[K^~~~~~[m[K
+[0.149s] [01m[K/usr/include/c++/11/type_traits:1783:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[0.149s]  1783 |       using __unsigned_type = typename __select<sizeof(_Tp), _UInts[01;31m[K>[m[K::__type;
+[0.149s]       |                                                                    [01;31m[K^[m[K
+[0.149s] [01m[K/usr/include/c++/11/type_traits:1787:47:[m[K [01;31m[Kerror: [m[K‘[01m[K__unsigned_type[m[K’ was not declared in this scope
+[0.150s]  1787 |         = typename __match_cv_qualifiers<_Tp, [01;31m[K__unsigned_type[m[K>::__type;
+[0.150s]       |                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.150s] [01m[K/usr/include/c++/11/type_traits:1787:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.150s]  1787 |         = typename __match_cv_qualifiers<_Tp, __unsigned_type[01;31m[K>[m[K::__type;
+[0.150s]       |                                                              [01;31m[K^[m[K
+[0.150s] [01m[K/usr/include/c++/11/type_traits:1799:68:[m[K [01;31m[Kerror: [m[K‘[01m[K__type[m[K’ in ‘[01m[Kclass std::__make_unsigned_selector<wchar_t, false, true>[m[K’ does not name a type
+[0.150s]  1799 |         = typename __make_unsigned_selector<wchar_t, false, true>::[01;31m[K__type[m[K;
+[0.150s]       |                                                                    [01;31m[K^~~~~~[m[K
+[0.150s] [01m[K/usr/include/c++/11/type_traits:1816:69:[m[K [01;31m[Kerror: [m[K‘[01m[K__type[m[K’ in ‘[01m[Kclass std::__make_unsigned_selector<char16_t, false, true>[m[K’ does not name a type
+[0.150s]  1816 |         = typename __make_unsigned_selector<char16_t, false, true>::[01;31m[K__type[m[K;
+[0.151s]       |                                                                     [01;31m[K^~~~~~[m[K
+[0.151s] [01m[K/usr/include/c++/11/type_traits:1823:69:[m[K [01;31m[Kerror: [m[K‘[01m[K__type[m[K’ in ‘[01m[Kclass std::__make_unsigned_selector<char32_t, false, true>[m[K’ does not name a type
+[0.151s]  1823 |         = typename __make_unsigned_selector<char32_t, false, true>::[01;31m[K__type[m[K;
+[0.151s]       |                                                                     [01;31m[K^~~~~~[m[K
+[0.151s] /usr/include/c++/11/type_traits: In instantiation of ‘[01m[Kclass std::__make_unsigned_selector<wchar_t, true, false>[m[K’:
+[0.151s] [01m[K/usr/include/c++/11/type_traits:1912:62:[m[K   required from ‘[01m[Kclass std::__make_signed_selector<wchar_t, false, true>[m[K’
+[0.151s] [01m[K/usr/include/c++/11/type_traits:1927:57:[m[K   required from here
+[0.151s] [01m[K/usr/include/c++/11/type_traits:1744:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<wchar_t>[m[K’
+[0.151s]  1744 |       using [01;31m[K__unsigned_type[m[K
+[0.151s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.152s] [01m[K/usr/include/c++/11/type_traits:1748:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<wchar_t>[m[K’
+[0.152s]  1748 |       using [01;31m[K__type[m[K
+[0.152s]       |             [01;31m[K^~~~~~[m[K
+[0.152s] [01m[K/usr/include/c++/11/type_traits:1927:66:[m[K [01;31m[Kerror: [m[Kinvalid combination of multiple type-specifiers
+[0.153s]  1927 |         = typename __make_signed_selector<wchar_t, false, true>::[01;31m[K__type[m[K;
+[0.153s]       |                                                                  [01;31m[K^~~~~~[m[K
+[0.153s] /usr/include/c++/11/type_traits: In instantiation of ‘[01m[Kclass std::__make_unsigned_selector<char16_t, true, false>[m[K’:
+[0.154s] [01m[K/usr/include/c++/11/type_traits:1912:62:[m[K   required from ‘[01m[Kclass std::__make_signed_selector<char16_t, false, true>[m[K’
+[0.154s] [01m[K/usr/include/c++/11/type_traits:1944:58:[m[K   required from here
+[0.154s] [01m[K/usr/include/c++/11/type_traits:1744:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<char16_t>[m[K’
+[0.154s]  1744 |       using [01;31m[K__unsigned_type[m[K
+[0.154s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.154s] [01m[K/usr/include/c++/11/type_traits:1748:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<char16_t>[m[K’
+[0.154s]  1748 |       using [01;31m[K__type[m[K
+[0.154s]       |             [01;31m[K^~~~~~[m[K
+[0.154s] [01m[K/usr/include/c++/11/type_traits:1944:67:[m[K [01;31m[Kerror: [m[Kinvalid combination of multiple type-specifiers
+[0.155s]  1944 |         = typename __make_signed_selector<char16_t, false, true>::[01;31m[K__type[m[K;
+[0.155s]       |                                                                   [01;31m[K^~~~~~[m[K
+[0.155s] /usr/include/c++/11/type_traits: In instantiation of ‘[01m[Kclass std::__make_unsigned_selector<char32_t, true, false>[m[K’:
+[0.155s] [01m[K/usr/include/c++/11/type_traits:1912:62:[m[K   required from ‘[01m[Kclass std::__make_signed_selector<char32_t, false, true>[m[K’
+[0.155s] [01m[K/usr/include/c++/11/type_traits:1951:58:[m[K   required from here
+[0.155s] [01m[K/usr/include/c++/11/type_traits:1744:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<char32_t>[m[K’
+[0.155s]  1744 |       using [01;31m[K__unsigned_type[m[K
+[0.155s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.156s] [01m[K/usr/include/c++/11/type_traits:1748:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<char32_t>[m[K’
+[0.156s]  1748 |       using [01;31m[K__type[m[K
+[0.156s]       |             [01;31m[K^~~~~~[m[K
+[0.156s] [01m[K/usr/include/c++/11/type_traits:1951:67:[m[K [01;31m[Kerror: [m[Kinvalid combination of multiple type-specifiers
+[0.156s]  1951 |         = typename __make_signed_selector<char32_t, false, true>::[01;31m[K__type[m[K;
+[0.156s]       |                                                                   [01;31m[K^~~~~~[m[K
+[0.156s] [01m[K/usr/include/c++/11/type_traits:1984:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.156s]  1984 |   template<typename _Tp, [01;31m[Kstd[m[K::size_t _Size>
+[0.156s]       |                          [01;31m[K^~~[m[K
+[0.156s] [01m[K/usr/include/c++/11/type_traits:1985:30:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.157s]  1985 |     struct remove_extent<_Tp[[01;31m[K_Size[m[K]>
+[0.157s]       |                              [01;31m[K^~~~~[m[K
+[0.157s] [01m[K/usr/include/c++/11/type_traits:1985:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.157s]  1985 |     struct remove_extent<_Tp[_Size][01;31m[K>[m[K
+[0.157s]       |                                    [01;31m[K^[m[K
+[0.157s] [01m[K/usr/include/c++/11/type_traits:1997:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.157s]  1997 |   template<typename _Tp, [01;31m[Kstd[m[K::size_t _Size>
+[0.157s]       |                          [01;31m[K^~~[m[K
+[0.157s] [01m[K/usr/include/c++/11/type_traits:1998:35:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.157s]  1998 |     struct remove_all_extents<_Tp[[01;31m[K_Size[m[K]>
+[0.157s]       |                                   [01;31m[K^~~~~[m[K
+[0.158s] [01m[K/usr/include/c++/11/type_traits:1998:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.158s]  1998 |     struct remove_all_extents<_Tp[_Size][01;31m[K>[m[K
+[0.158s]       |                                         [01;31m[K^[m[K
+[0.158s] [01m[K/usr/include/c++/11/type_traits:2056:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.158s]  2056 |   template<[01;31m[Kstd[m[K::size_t _Len>
+[0.158s]       |            [01;31m[K^~~[m[K
+[0.158s] [01m[K/usr/include/c++/11/type_traits:2061:30:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.158s]  2061 |         unsigned char __data[[01;31m[K_Len[m[K];
+[0.158s]       |                              [01;31m[K^~~~[m[K
+[0.158s] [01m[K/usr/include/c++/11/type_traits:2076:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.158s]  2076 |   template<[01;31m[Kstd[m[K::size_t _Len, std::size_t _Align =
+[0.159s]       |            [01;31m[K^~~[m[K
+[0.159s] [01m[K/usr/include/c++/11/type_traits:2076:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.159s]  2076 |   template<std::size_t _Len, [01;31m[Kstd[m[K::size_t _Align =
+[0.159s]       |                              [01;31m[K^~~[m[K
+[0.159s] [01m[K/usr/include/c++/11/type_traits:2077:55:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.159s]  2077 |            __alignof__(typename __aligned_storage_msa<[01;31m[K_Len[m[K>::__type)>
+[0.159s]       |                                                       [01;31m[K^~~~[m[K
+[0.159s] [01m[K/usr/include/c++/11/type_traits:2077:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.160s]  2077 |            __alignof__(typename __aligned_storage_msa<_Len[01;31m[K>[m[K::__type)>
+[0.160s]       |                                                           [01;31m[K^[m[K
+[0.160s] [01m[K/usr/include/c++/11/type_traits:2082:30:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.160s]  2082 |         unsigned char __data[[01;31m[K_Len[m[K];
+[0.160s]       |                              [01;31m[K^~~~[m[K
+[0.160s] [01m[K/usr/include/c++/11/type_traits:2083:44:[m[K [01;31m[Kerror: [m[K‘[01m[K_Align[m[K’ was not declared in this scope
+[0.160s]  2083 |         struct __attribute__((__aligned__(([01;31m[K_Align[m[K)))) { } __align;
+[0.160s]       |                                            [01;31m[K^~~~~~[m[K
+[0.160s] [01m[K/usr/include/c++/11/type_traits:2090:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.160s]  2090 |       static const [01;31m[Ksize_t[m[K _S_alignment = 0;
+[0.161s]       |                    [01;31m[K^~~~~~[m[K
+[0.161s] [01m[K/usr/include/c++/11/type_traits:2090:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.161s] [01m[K/usr/include/c++/11/type_traits:2091:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.161s]  2091 |       static const [01;31m[Ksize_t[m[K _S_size = 0;
+[0.161s]       |                    [01;31m[K^~~~~~[m[K
+[0.161s] [01m[K/usr/include/c++/11/type_traits:2091:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.161s] [01m[K/usr/include/c++/11/type_traits:2097:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.161s]  2097 |       static const [01;31m[Ksize_t[m[K _S_alignment =
+[0.161s]       |                    [01;31m[K^~~~~~[m[K
+[0.161s] [01m[K/usr/include/c++/11/type_traits:2097:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.161s] [01m[K/usr/include/c++/11/type_traits:2100:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.162s]  2100 |       static const [01;31m[Ksize_t[m[K _S_size =
+[0.162s]       |                    [01;31m[K^~~~~~[m[K
+[0.162s] [01m[K/usr/include/c++/11/type_traits:2100:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.162s] [01m[K/usr/include/c++/11/type_traits:2115:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.162s]  2115 |   template <[01;31m[Ksize_t[m[K _Len, typename... _Types>
+[0.162s]       |             [01;31m[K^~~~~~[m[K
+[0.162s] [01m[K/usr/include/c++/11/type_traits:2122:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.162s]  2122 |       static const [01;31m[Ksize_t[m[K _S_len = _Len > __strictest::_S_size
+[0.162s]       |                    [01;31m[K^~~~~~[m[K
+[0.162s] [01m[K/usr/include/c++/11/type_traits:2122:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.162s] [01m[K/usr/include/c++/11/type_traits:2126:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.163s]  2126 |       static const [01;31m[Ksize_t[m[K alignment_value = __strictest::_S_alignment;
+[0.163s]       |                    [01;31m[K^~~~~~[m[K
+[0.163s] [01m[K/usr/include/c++/11/type_traits:2126:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.163s] [01m[K/usr/include/c++/11/type_traits:2128:40:[m[K [01;31m[Kerror: [m[K‘[01m[K_S_len[m[K’ was not declared in this scope
+[0.163s]  2128 |       typedef typename aligned_storage<[01;31m[K_S_len[m[K, alignment_value>::type type;
+[0.163s]       |                                        [01;31m[K^~~~~~[m[K
+[0.163s] [01m[K/usr/include/c++/11/type_traits:2128:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kalignment_value[m[K’ was not declared in this scope; did you mean ‘[01m[Kalignment_of[m[K’?
+[0.163s]  2128 |       typedef typename aligned_storage<_S_len, [01;31m[Kalignment_value[m[K>::type type;
+[0.163s]       |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.163s]       |                                                [32m[Kalignment_of[m[K
+[0.163s] [01m[K/usr/include/c++/11/type_traits:2128:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.163s]  2128 |       typedef typename aligned_storage<_S_len, alignment_value[01;31m[K>[m[K::type type;
+[0.164s]       |                                                               [01;31m[K^[m[K
+[0.164s] [01m[K/usr/include/c++/11/type_traits:2128:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.164s] [01m[K/usr/include/c++/11/type_traits:2131:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.164s]  2131 |   template <[01;31m[Ksize_t[m[K _Len, typename... _Types>
+[0.164s]       |             [01;31m[K^~~~~~[m[K
+[0.164s] [01m[K/usr/include/c++/11/type_traits:2132:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.164s]  2132 |     const [01;31m[Ksize_t[m[K aligned_union<_Len, _Types...>::alignment_value;
+[0.164s]       |           [01;31m[K^~~~~~[m[K
+[0.164s] [01m[K/usr/include/c++/11/type_traits:2132:11:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.164s] [01m[K/usr/include/c++/11/type_traits:2566:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.164s]  2566 |   template<[01;31m[Ksize_t[m[K _Len, size_t _Align =
+[0.164s]       |            [01;31m[K^~~~~~[m[K
+[0.165s] [01m[K/usr/include/c++/11/type_traits:2566:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.165s]  2566 |   template<size_t _Len, [01;31m[Ksize_t[m[K _Align =
+[0.165s]       |                         [01;31m[K^~~~~~[m[K
+[0.165s] [01m[K/usr/include/c++/11/type_traits:2567:56:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.165s]  2567 |             __alignof__(typename __aligned_storage_msa<[01;31m[K_Len[m[K>::__type)>
+[0.165s]       |                                                        [01;31m[K^~~~[m[K
+[0.165s] [01m[K/usr/include/c++/11/type_traits:2567:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.165s]  2567 |             __alignof__(typename __aligned_storage_msa<_Len[01;31m[K>[m[K::__type)>
+[0.165s]       |                                                            [01;31m[K^[m[K
+[0.166s] [01m[K/usr/include/c++/11/type_traits:2568:56:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.166s]  2568 |     using aligned_storage_t = typename aligned_storage<[01;31m[K_Len[m[K, _Align>::type;
+[0.166s]       |                                                        [01;31m[K^~~~[m[K
+[0.166s] [01m[K/usr/include/c++/11/type_traits:2568:62:[m[K [01;31m[Kerror: [m[K‘[01m[K_Align[m[K’ was not declared in this scope
+[0.166s]  2568 |     using aligned_storage_t = typename aligned_storage<_Len, [01;31m[K_Align[m[K>::type;
+[0.166s]       |                                                              [01;31m[K^~~~~~[m[K
+[0.166s] [01m[K/usr/include/c++/11/type_traits:2568:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.166s]  2568 |     using aligned_storage_t = typename aligned_storage<_Len, _Align[01;31m[K>[m[K::type;
+[0.166s]       |                                                                    [01;31m[K^[m[K
+[0.167s] [01m[K/usr/include/c++/11/type_traits:2568:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.167s] [01m[K/usr/include/c++/11/type_traits:2570:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.167s]  2570 |   template <[01;31m[Ksize_t[m[K _Len, typename... _Types>
+[0.167s]       |             [01;31m[K^~~~~~[m[K
+[0.167s] [01m[K/usr/include/c++/11/type_traits:2571:52:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.167s]  2571 |     using aligned_union_t = typename aligned_union<[01;31m[K_Len[m[K, _Types...>::type;
+[0.167s]       |                                                    [01;31m[K^~~~[m[K
+[0.167s] [01m[K/usr/include/c++/11/type_traits:2571:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.167s]  2571 |     using aligned_union_t = typename aligned_union<_Len, _Types...[01;31m[K>[m[K::type;
+[0.167s]       |                                                                   [01;31m[K^[m[K
+[0.167s] [01m[K/usr/include/c++/11/type_traits:2680:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.168s]  2680 |   template<typename _Tp, [01;31m[Ksize_t[m[K _Nm>
+[0.168s]       |                          [01;31m[K^~~~~~[m[K
+[0.168s] [01m[K/usr/include/c++/11/type_traits:2684:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.168s]  2684 |     swap(_Tp (&__a)[[01;31m[K_Nm[m[K], _Tp (&__b)[_Nm])
+[0.168s]       |                     [01;31m[K^~~[m[K
+[0.168s] [01m[K/usr/include/c++/11/type_traits:2684:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemplate<class _Tp, <declaration error> > std::__enable_if_t<std::__is_swappable<_Tp>::value> std::swap[m[K’ conflicts with a previous declaration
+[0.168s]  2684 |     swap(_Tp (&__a)[_Nm[01;31m[K][m[K, _Tp (&__b)[_Nm])
+[0.168s]       |                        [01;31m[K^[m[K
+[0.168s] [01m[K/usr/include/c++/11/type_traits:2676:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::swap(_Tp&, _Tp&)[m[K’
+[0.168s]  2676 |     [01;36m[Kswap[m[K(_Tp&, _Tp&)
+[0.168s]       |     [01;36m[K^~~~[m[K
+[0.168s] [01m[K/usr/include/c++/11/type_traits:2684:16:[m[K [01;31m[Kerror: [m[K‘[01m[K__a[m[K’ was not declared in this scope
+[0.169s]  2684 |     swap(_Tp (&[01;31m[K__a[m[K)[_Nm], _Tp (&__b)[_Nm])
+[0.169s]       |                [01;31m[K^~~[m[K
+[0.169s] [01m[K/usr/include/c++/11/type_traits:2684:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.169s]  2684 |     swap(_Tp (&__a)[[01;31m[K_Nm[m[K], _Tp (&__b)[_Nm])
+[0.169s]       |                     [01;31m[K^~~[m[K
+[0.169s] [01m[K/usr/include/c++/11/type_traits:2684:33:[m[K [01;31m[Kerror: [m[K‘[01m[K__b[m[K’ was not declared in this scope
+[0.169s]  2684 |     swap(_Tp (&__a)[_Nm], _Tp (&[01;31m[K__b[m[K)[_Nm])
+[0.169s]       |                                 [01;31m[K^~~[m[K
+[0.169s] [01m[K/usr/include/c++/11/type_traits:2684:38:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.169s]  2684 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[[01;31m[K_Nm[m[K])
+[0.170s]       |                                      [01;31m[K^~~[m[K
+[0.170s] [01m[K/usr/include/c++/11/type_traits:2684:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Knoexcept[m[K’
+[0.170s]  2684 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+[0.170s]       |                                           [01;31m[K^[m[K
+[0.170s]       |                                           [32m[K;[m[K
+[0.170s]  2685 |     [32m[Knoexcept[m[K(__is_nothrow_swappable<_Tp>::value);
+[0.170s]       |     [32m[K~~~~~~~~[m[K                               
+[0.170s] [01m[K/usr/include/c++/11/type_traits:3244:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.170s]  3244 |   inline constexpr [01;31m[Ksize_t[m[K alignment_of_v = alignment_of<_Tp>::value;
+[0.170s]       |                    [01;31m[K^~~~~~[m[K
+[0.170s] [01m[K/usr/include/c++/11/type_traits:3244:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.171s] [01m[K/usr/include/c++/11/type_traits:3246:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.171s]  3246 |   inline constexpr [01;31m[Ksize_t[m[K rank_v = rank<_Tp>::value;
+[0.171s]       |                    [01;31m[K^~~~~~[m[K
+[0.171s] [01m[K/usr/include/c++/11/type_traits:3246:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.171s] [01m[K/usr/include/c++/11/type_traits:3248:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.171s]  3248 |   inline constexpr [01;31m[Ksize_t[m[K extent_v = extent<_Tp, _Idx>::value;
+[0.171s]       |                    [01;31m[K^~~~~~[m[K
+[0.171s] [01m[K/usr/include/c++/11/type_traits:3248:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.171s] In file included from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[0.171s]                  from [01m[K/usr/include/c++/11/utility:70[m[K,
+[0.171s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[0.171s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__struct.hpp:8[m[K,
+[0.172s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/bill.hpp:7[m[K,
+[0.172s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2[m[K:
+[0.172s] [01m[K/usr/include/c++/11/bits/move.h:212:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.172s]   212 |   template<typename _Tp, [01;31m[Ksize_t[m[K _Nm>
+[0.172s]       |                          [01;31m[K^~~~~~[m[K
+[0.172s] [01m[K/usr/include/c++/11/bits/move.h:220:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.172s]   220 |     swap(_Tp (&__a)[[01;31m[K_Nm[m[K], _Tp (&__b)[_Nm])
+[0.172s]       |                     [01;31m[K^~~[m[K
+[0.172s] [01m[K/usr/include/c++/11/bits/move.h:220:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemplate<class _Tp, <declaration error> > typename std::enable_if<std::__is_swappable<_Tp>::value, void>::type std::swap[m[K’ conflicts with a previous declaration
+[0.172s]   220 |     swap(_Tp (&__a)[_Nm[01;31m[K][m[K, _Tp (&__b)[_Nm])
+[0.173s]       |                        [01;31m[K^[m[K
+[0.173s] [01m[K/usr/include/c++/11/bits/move.h:196:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::swap(_Tp&, _Tp&)[m[K’
+[0.173s]   196 |     [01;36m[Kswap[m[K(_Tp& __a, _Tp& __b)
+[0.173s]       |     [01;36m[K^~~~[m[K
+[0.173s] [01m[K/usr/include/c++/11/bits/move.h:220:16:[m[K [01;31m[Kerror: [m[K‘[01m[K__a[m[K’ was not declared in this scope
+[0.173s]   220 |     swap(_Tp (&[01;31m[K__a[m[K)[_Nm], _Tp (&__b)[_Nm])
+[0.173s]       |                [01;31m[K^~~[m[K
+[0.173s] [01m[K/usr/include/c++/11/bits/move.h:220:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.173s]   220 |     swap(_Tp (&__a)[[01;31m[K_Nm[m[K], _Tp (&__b)[_Nm])
+[0.173s]       |                     [01;31m[K^~~[m[K
+[0.173s] [01m[K/usr/include/c++/11/bits/move.h:220:33:[m[K [01;31m[Kerror: [m[K‘[01m[K__b[m[K’ was not declared in this scope
+[0.173s]   220 |     swap(_Tp (&__a)[_Nm], _Tp (&[01;31m[K__b[m[K)[_Nm])
+[0.174s]       |                                 [01;31m[K^~~[m[K
+[0.174s] [01m[K/usr/include/c++/11/bits/move.h:220:38:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.174s]   220 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[[01;31m[K_Nm[m[K])
+[0.174s]       |                                      [01;31m[K^~~[m[K
+[0.174s] [01m[K/usr/include/c++/11/bits/move.h:220:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Knoexcept[m[K’
+[0.174s]   220 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+[0.174s]       |                                           [01;31m[K^[m[K
+[0.174s]       |                                           [32m[K;[m[K
+[0.174s] In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+[0.174s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[0.174s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__struct.hpp:8[m[K,
+[0.174s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/bill.hpp:7[m[K,
+[0.174s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2[m[K:
+[0.175s] [01m[K/usr/include/c++/11/bits/stl_pair.h:92:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.175s]    92 |   template<[01;31m[Ksize_t[m[K...>
+[0.175s]       |            [01;31m[K^~~~~~[m[K
+[0.175s] [01m[K/usr/include/c++/11/bits/stl_pair.h:449:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.175s]   449 |       template<typename... _Args1, [01;31m[Ksize_t[m[K... _Indexes1,
+[0.175s]       |                                    [01;31m[K^~~~~~[m[K
+[0.175s] [01m[K/usr/include/c++/11/bits/stl_pair.h:450:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.175s]   450 |                typename... _Args2, [01;31m[Ksize_t[m[K... _Indexes2>
+[0.175s]       |                                    [01;31m[K^~~~~~[m[K
+[0.175s] [01m[K/usr/include/c++/11/bits/stl_pair.h:453:27:[m[K [01;31m[Kerror: [m[K‘[01m[K_Indexes1[m[K’ was not declared in this scope
+[0.175s]   453 |              _Index_tuple<[01;31m[K_Indexes1[m[K...>, _Index_tuple<_Indexes2...>);
+[0.175s]       |                           [01;31m[K^~~~~~~~~[m[K
+[0.176s] [01m[K/usr/include/c++/11/bits/stl_pair.h:453:36:[m[K [01;31m[Kerror: [m[Kexpected parameter pack before ‘[01m[K...[m[K’
+[0.176s]   453 |              _Index_tuple<_Indexes1[01;31m[K...[m[K>, _Index_tuple<_Indexes2...>);
+[0.176s]       |                                    [01;31m[K^~~[m[K
+[0.176s] [01m[K/usr/include/c++/11/bits/stl_pair.h:453:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.176s]   453 |              _Index_tuple<_Indexes1...[01;31m[K>[m[K, _Index_tuple<_Indexes2...>);
+[0.176s]       |                                       [01;31m[K^[m[K
+[0.176s] [01m[K/usr/include/c++/11/bits/stl_pair.h:453:55:[m[K [01;31m[Kerror: [m[K‘[01m[K_Indexes2[m[K’ was not declared in this scope
+[0.176s]   453 |              _Index_tuple<_Indexes1...>, _Index_tuple<[01;31m[K_Indexes2[m[K...>);
+[0.176s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[0.176s] [01m[K/usr/include/c++/11/bits/stl_pair.h:453:64:[m[K [01;31m[Kerror: [m[Kexpected parameter pack before ‘[01m[K...[m[K’
+[0.177s]   453 |              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2[01;31m[K...[m[K>);
+[0.177s]       |                                                                [01;31m[K^~~[m[K
+[0.177s] [01m[K/usr/include/c++/11/bits/stl_pair.h:453:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.177s]   453 |              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...[01;31m[K>[m[K);
+[0.177s]       |                                                                   [01;31m[K^[m[K
+[0.177s] In file included from [01m[K/usr/include/c++/11/utility:76[m[K,
+[0.177s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[0.177s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__struct.hpp:8[m[K,
+[0.177s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/bill.hpp:7[m[K,
+[0.177s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2[m[K:
+[0.177s] [01m[K/usr/include/c++/11/initializer_list:53:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.177s]    53 |       typedef [01;31m[Ksize_t[m[K            size_type;
+[0.177s]       |               [01;31m[K^~~~~~[m[K
+[0.177s] In file included from [01m[K/usr/include/c++/11/utility:76[m[K,
+[0.177s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[0.177s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__struct.hpp:8[m[K,
+[0.178s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/bill.hpp:7[m[K,
+[0.178s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2[m[K:
+[0.179s] [01m[K/usr/include/c++/11/initializer_list:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.179s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.179s]     1 | // std::initializer_list support -*- C++ -*-
+[0.179s] In file included from [01m[K/usr/include/c++/11/utility:76[m[K,
+[0.179s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[0.179s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__struct.hpp:8[m[K,
+[0.179s]                  from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/bill.hpp:7[m[K,
+[0.179s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2[m[K:
+[0.179s] [01m[K/usr/include/c++/11/initializer_list:59:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ does not name a type; did you mean ‘[01m[Ktrue_type[m[K’?
+[0.179s]    59 |       [01;31m[Ksize_type[m[K                 _M_len;
+[0.179s]       |       [01;31m[K^~~~~~~~~[m[K
+[0.179s]       |       [32m[Ktrue_type[m[K
+[0.179s] [01m[K/usr/include/c++/11/initializer_list:62:54:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ has not been declared
+[0.179s]    62 |       constexpr initializer_list(const_iterator __a, [01;31m[Ksize_type[m[K __l)
+[0.179s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[0.179s] [01m[K/usr/include/c++/11/initializer_list:70:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ does not name a type; did you mean ‘[01m[Ktrue_type[m[K’?
+[0.179s]    70 |       constexpr [01;31m[Ksize_type[m[K
+[0.179s]       |                 [01;31m[K^~~~~~~~~[m[K
+[0.180s]       |                 [32m[Ktrue_type[m[K
+[0.180s] [01m[K/usr/include/c++/11/initializer_list:47:11:[m[K [01;31m[Kfatal error: [m[Kdefinition of ‘[01m[Kclass std::initializer_list<_E>[m[K’ does not match ‘[01m[K#include <initializer_list>[m[K’
+[0.180s]    47 |     class [01;31m[Kinitializer_list[m[K
+[0.180s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.180s] compilation terminated.
+[0.180s] gmake[2]: *** [CMakeFiles/bill_subscriber_node.dir/build.make:76: CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o] Error 1
+[0.180s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/bill_subscriber_node.dir/all] Error 2
+[0.180s] gmake: *** [Makefile:146: all] Error 2
+[0.185s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

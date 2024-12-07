@@ -1,0 +1,50 @@
+[0.008s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.036s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.132s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.150s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.151s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.155s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.161s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.191s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.306s] -- Found tutorial_interfaces: 0.0.0 (/home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.325s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.372s] -- Configured cppcheck include dirs: 
+[0.372s] -- Configured cppcheck exclude dirs and/or files: 
+[0.372s] -- Added test 'lint_cmake' to check CMake code style
+[0.373s] -- Added test 'uncrustify' to check C / C++ code style
+[0.373s] -- Configured uncrustify additional arguments: 
+[0.373s] -- Added test 'xmllint' to check XML markup files
+[0.373s] -- Configuring done
+[0.381s] -- Generating done
+[0.384s] -- Build files have been written to: /home/mahek/ros2_ws/build/my_cashier_system
+[0.407s] [35m[1mConsolidate compiler generated dependencies of target bill_publish_node[0m
+[0.407s] [35m[1mConsolidate compiler generated dependencies of target bill_subscriber_node[0m
+[0.419s] [ 25%] [32mBuilding CXX object CMakeFiles/bill_publish_node.dir/src/bill_publish_node.cpp.o[0m
+[0.422s] [ 75%] Built target bill_subscriber_node
+[1.865s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:[m[K In member function ‘[01m[Kvoid BillPublisherNode::publish_bill()[m[K’:
+[1.865s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:23:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktimestamp[m[K’
+[1.865s]    23 |         message.[01;31m[Ktimestamp[m[K = std::to_string(std::chrono::system_clock::now().time_since_epoch().count());
+[1.865s]       |                 [01;31m[K^~~~~~~~~[m[K
+[1.865s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.866s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:1[m[K:
+[1.866s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:30:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktimestamp[m[K’
+[1.866s]    30 |                     message.bill_number, message.[01;31m[Ktimestamp[m[K.c_str(), message.quantity, message.price, message.total);
+[1.866s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.399s] gmake[2]: *** [CMakeFiles/bill_publish_node.dir/build.make:76: CMakeFiles/bill_publish_node.dir/src/bill_publish_node.cpp.o] Error 1
+[2.399s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/bill_publish_node.dir/all] Error 2
+[2.399s] gmake: *** [Makefile:146: all] Error 2
+[2.402s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

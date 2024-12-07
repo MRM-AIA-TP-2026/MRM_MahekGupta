@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target bill_display_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o[0m
+[ 50%] Built target bill_publish_node
+[ 66%] [32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o[0m

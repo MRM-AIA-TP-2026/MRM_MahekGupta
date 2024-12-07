@@ -1,0 +1,42 @@
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/update_inventory.hpp: No such file or directory
+    3 | #include [01;31m[K"tutorial_interfaces/srv/update_inventory.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bill_subscriber_node.dir/build.make:76: CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/bill_subscriber_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:[m[K In constructor ‘[01m[KBillPublisherNode::BillPublisherNode()[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:13:71:[m[K [01;31m[Kerror: [m[K‘[01m[Knum[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::msg[m[K’; did you mean ‘[01m[KNum[m[K’?
+   13 | blisher_ = this->create_publisher<tutorial_interfaces::msg::[01;31m[Knum[m[K>("bill", 10);
+      |                                                             [01;31m[K^~~[m[K
+      |                                                             [32m[KNum[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:13:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBillPublisherNode::create_publisher<<expression error> >(const char [5], int)[m[K’
+   13 | her_ = [01;31m[Kthis->create_publisher<tutorial_interfaces::msg::num>("bill", 10)[m[K;
+      |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:13:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 | her_ = [01;31m[Kthis->create_publisher<tutorial_interfaces::msg::num>("bill", 10)[m[K;
+      |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:[m[K In member function ‘[01m[Kvoid BillPublisherNode::publish_bill()[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:21:50:[m[K [01;31m[Kerror: [m[K‘[01m[Knum[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::msg[m[K’; did you mean ‘[01m[KNum[m[K’?
+   21 |         auto message = tutorial_interfaces::msg::[01;31m[Knum[m[K();
+      |                                                  [01;31m[K^~~[m[K
+      |                                                  [32m[KNum[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In constructor ‘[01m[KBillDisplayNode::BillDisplayNode()[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:15:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   15 |             [01;31m[K5s[m[K, std::bind(&BillDisplayNode::print_status, this));
+      |             [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/bill_publish_node.dir/build.make:76: CMakeFiles/bill_publish_node.dir/src/bill_publish_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/bill_publish_node.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

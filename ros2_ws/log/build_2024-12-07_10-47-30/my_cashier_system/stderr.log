@@ -1,0 +1,44 @@
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:[m[K In member function ‘[01m[Kvoid BillPublisherNode::publish_bill()[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:23:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktimestamp[m[K’
+   23 |         message.[01;31m[Ktimestamp[m[K = std::to_string(std::chrono::system_clock::now().time_since_epoch().count());
+      |                 [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:1[m[K:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:30:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktimestamp[m[K’
+   30 |                     message.bill_number, message.[01;31m[Ktimestamp[m[K.c_str(), message.quantity, message.price, message.total);
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1[m[K:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In member function ‘[01m[Kvoid BillDisplayNode::topic_callback(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:33:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktimestamp[m[K’
+   33 |                     msg->bill_number, msg->[01;31m[Ktimestamp[m[K.c_str(), msg->quantity, msg->price, msg->total);
+      |                                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:37:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktimestamp[m[K’
+   37 |         std::string timestamp = msg->[01;31m[Ktimestamp[m[K;
+      |                                      [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bill.dir/build.make:76: CMakeFiles/bill.dir/src/bill_publish_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/bill.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

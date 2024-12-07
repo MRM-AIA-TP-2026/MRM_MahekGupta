@@ -1,0 +1,33 @@
+[0.387s] Invoking command in '/home/mahek/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/mahek/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/mahek/ros2_ws/build/my_robot_controller/build install --record /home/mahek/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[0.529s] running egg_info
+[0.529s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[0.529s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.529s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.529s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.530s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.530s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.530s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.530s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.531s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.531s] running build
+[0.531s] running build_py
+[0.531s] creating /home/mahek/ros2_ws/build/my_robot_controller/build
+[0.531s] creating /home/mahek/ros2_ws/build/my_robot_controller/build/lib
+[0.531s] creating /home/mahek/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.531s] copying my_robot_controller/__init__.py -> /home/mahek/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.531s] running install
+[0.532s] running install_lib
+[0.532s] creating /home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.532s] copying /home/mahek/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.532s] byte-compiling /home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[0.532s] running install_data
+[0.532s] creating /home/mahek/ros2_ws/install/my_robot_controller/share/ament_index
+[0.532s] creating /home/mahek/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[0.532s] creating /home/mahek/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.532s] copying resource/my_robot_controller -> /home/mahek/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.532s] copying package.xml -> /home/mahek/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[0.533s] running install_egg_info
+[0.533s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.534s] running install_scripts
+[0.548s] writing list of installed files to '/home/mahek/ros2_ws/build/my_robot_controller/install.log'
+[0.563s] Invoked command in '/home/mahek/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/mahek/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/mahek/ros2_ws/build/my_robot_controller/build install --record /home/mahek/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

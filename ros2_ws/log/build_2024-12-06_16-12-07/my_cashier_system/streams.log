@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.032s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.151s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.153s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.157s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.191s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.192s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.300s] -- Found my_cashier_system: 0.0.0 (/home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/cmake)
+[0.300s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.456s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.456s]   Packages installing interfaces must include
+[0.456s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.456s]   package.xml
+[0.456s] Call Stack (most recent call first):
+[0.456s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[0.456s] 
+[0.457s] [0m
+[0.457s] -- Configuring incomplete, errors occurred!
+[0.457s] See also "/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/CMakeOutput.log".
+[0.462s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.465s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

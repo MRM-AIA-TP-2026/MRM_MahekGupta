@@ -1,0 +1,2 @@
+Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

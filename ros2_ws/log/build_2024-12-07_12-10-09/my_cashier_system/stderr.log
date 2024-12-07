@@ -1,0 +1,19 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:1[m[K:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid BillSubscriberNode::process_bill(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:24:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktime[m[K’
+   24 |             msg->bill_number, msg->[01;31m[Ktime[m[K.c_str(), msg->quantity, msg->price, msg->total
+      |                                    [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/bill_subscriber_node.dir/build.make:76: CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/bill_subscriber_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

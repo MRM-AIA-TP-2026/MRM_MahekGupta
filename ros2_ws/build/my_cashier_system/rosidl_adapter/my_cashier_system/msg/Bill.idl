@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_cashier_system/msg/Bill.msg
+// generated code does not contain a copyright notice
+
+
+module my_cashier_system {
+  module msg {
+    struct Bill {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

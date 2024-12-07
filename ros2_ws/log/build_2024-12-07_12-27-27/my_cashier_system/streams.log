@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.061s] [ 33%] Built target bill_subscriber_node
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o[0m
+[0.067s] [ 83%] Built target bill_publish_node
+[1.478s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:62:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.478s]    62 |     int inventory_;[01;31m[K [m[K                          // Tracks current inv
+[1.478s]       |                    [01;31m[K^[m[K
+[1.478s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:7:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.478s]     7 | [01;36m[K{[m[K
+[1.478s]       | [01;36m[K^[m[K
+[1.478s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In constructor ‘[01m[KBillDisplayNode::BillDisplayNode()[m[K’:
+[1.478s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:10:55:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KBillDisplayNode[m[K’ does not have any field named ‘[01m[Kincome_[m[K’
+[1.478s]    10 |         : Node("bill_display_node"), inventory_(100), [01;31m[Kincome_[m[K(0.0)
+[1.479s]       |                                                       [01;31m[K^~~~~~~[m[K
+[1.489s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:32:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kincome_[m[K’ was not declared in this scope
+[1.489s]    32 |         this->declare_parameter("income", [01;31m[Kincome_[m[K);
+[1.489s]       |                                           [01;31m[K^~~~~~~[m[K
+[1.493s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In member function ‘[01m[Kvoid BillDisplayNode::display_info()[m[K’:
+[1.493s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kincome_[m[K’ was not declared in this scope
+[1.494s]    39 |         [01;31m[Kincome_[m[K = this->get_parameter("income").as_double();
+[1.494s]       |         [01;31m[K^~~~~~~[m[K
+[1.496s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K At global scope:
+[1.497s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:62:20:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.497s]    62 |     int inventory_;[01;31m[K [m[K                          // Tracks current inv
+[1.497s]       |                    [01;31m[K^[m[K
+[2.909s] gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+[2.910s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+[2.910s] gmake: *** [Makefile:146: all] Error 2
+[2.912s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000452] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000525] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000558] (my_cashier_system) JobQueued: {'identifier': 'my_cashier_system', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/mahek/ros2_ws/install/tutorial_interfaces')])}
+[0.000588] (my_cashier_system) JobStarted: {'identifier': 'my_cashier_system'}
+[0.008636] (my_cashier_system) JobProgress: {'identifier': 'my_cashier_system', 'progress': 'cmake'}
+[0.009011] (my_cashier_system) JobProgress: {'identifier': 'my_cashier_system', 'progress': 'build'}
+[0.009411] (my_cashier_system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahek/ros2_ws/build/my_cashier_system', '--', '-j12', '-l12'], 'cwd': '/home/mahek/ros2_ws/build/my_cashier_system', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('OLDPWD', '/home/mahek'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1611'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1583,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1583'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a8fb788_0efb_4b02_84d4_44e4e5ca4ec8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4JGMY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.314'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/ros2_ws/build/my_cashier_system'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.063955] (my_cashier_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bill_display_node\x1b[0m\n'}
+[0.064224] (my_cashier_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bill\x1b[0m\n'}
+[0.072693] (my_cashier_system) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o\x1b[0m\n'}
+[0.080028] (my_cashier_system) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o\x1b[0m\n'}
+[0.081469] (my_cashier_system) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bill.dir/src/bill_publish_node.cpp.o\x1b[0m\n'}
+[0.099844] (-) TimerEvent: {}
+[0.200291] (-) TimerEvent: {}
+[0.300738] (-) TimerEvent: {}
+[0.401184] (-) TimerEvent: {}
+[0.501625] (-) TimerEvent: {}
+[0.602075] (-) TimerEvent: {}
+[0.702541] (-) TimerEvent: {}
+[0.802992] (-) TimerEvent: {}
+[0.903451] (-) TimerEvent: {}
+[1.003903] (-) TimerEvent: {}
+[1.104358] (-) TimerEvent: {}
+[1.204814] (-) TimerEvent: {}
+[1.305267] (-) TimerEvent: {}
+[1.405724] (-) TimerEvent: {}
+[1.506188] (-) TimerEvent: {}
+[1.580864] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BillPublisherNode::publish_bill()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.581133] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:23:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktimestamp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.581407] (my_cashier_system) StderrLine: {'line': b'   23 |         message.\x1b[01;31m\x1b[Ktimestamp\x1b[m\x1b[K = std::to_string(std::chrono::system_clock::now().time_since_epoch().count());\n'}
+[1.581514] (my_cashier_system) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.581603] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.581687] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.581770] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.581850] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.581941] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.582020] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.582106] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.582194] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.582274] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.582354] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.582433] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.582512] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.582591] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:30:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktimestamp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.582674] (my_cashier_system) StderrLine: {'line': b'   30 |                     message.bill_number, message.\x1b[01;31m\x1b[Ktimestamp\x1b[m\x1b[K.c_str(), message.quantity, message.price, message.total);\n'}
+[1.582754] (my_cashier_system) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.597553] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.597756] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.597844] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.597925] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.598003] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.598080] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.598172] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.598249] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.598343] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.598423] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.598498] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.598573] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.598655] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BillDisplayNode::topic_callback(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.598735] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:33:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktimestamp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.598821] (my_cashier_system) StderrLine: {'line': b'   33 |                     msg->bill_number, msg->\x1b[01;31m\x1b[Ktimestamp\x1b[m\x1b[K.c_str(), msg->quantity, msg->price, msg->total);\n'}
+[1.598898] (my_cashier_system) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.598978] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:37:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktimestamp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.599063] (my_cashier_system) StderrLine: {'line': b'   37 |         std::string timestamp = msg->\x1b[01;31m\x1b[Ktimestamp\x1b[m\x1b[K;  // Handle timestamp as string\n'}
+[1.599158] (my_cashier_system) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.606412] (-) TimerEvent: {}
+[1.706844] (-) TimerEvent: {}
+[1.807299] (-) TimerEvent: {}
+[1.907754] (-) TimerEvent: {}
+[2.008195] (-) TimerEvent: {}
+[2.108650] (-) TimerEvent: {}
+[2.130474] (my_cashier_system) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bill.dir/build.make:76: CMakeFiles/bill.dir/src/bill_publish_node.cpp.o] Error 1\n'}
+[2.130815] (my_cashier_system) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/bill.dir/all] Error 2\n'}
+[2.130934] (my_cashier_system) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.208892] (-) TimerEvent: {}
+[2.309277] (-) TimerEvent: {}
+[2.409651] (-) TimerEvent: {}
+[2.510100] (-) TimerEvent: {}
+[2.604108] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.604324] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.604426] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.604520] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.604611] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.604699] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.604788] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.604876] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.604982] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.605071] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.605171] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.605260] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.605349] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BillDisplayNode::topic_callback(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.605440] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:32:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktimestamp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.605534] (my_cashier_system) StderrLine: {'line': b'   32 |                     msg->bill_number, msg->\x1b[01;31m\x1b[Ktimestamp\x1b[m\x1b[K.c_str(), msg->quantity, msg->price, msg->total);\n'}
+[2.605630] (my_cashier_system) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.605720] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:36:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktimestamp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.605810] (my_cashier_system) StderrLine: {'line': b'   36 |         std::string timestamp = msg->\x1b[01;31m\x1b[Ktimestamp\x1b[m\x1b[K;  // Handle timestamp as string\n'}
+[2.605898] (my_cashier_system) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.610310] (-) TimerEvent: {}
+[2.710739] (-) TimerEvent: {}
+[2.811178] (-) TimerEvent: {}
+[2.911635] (-) TimerEvent: {}
+[3.012112] (-) TimerEvent: {}
+[3.112560] (-) TimerEvent: {}
+[3.173981] (my_cashier_system) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1\n'}
+[3.174253] (my_cashier_system) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2\n'}
+[3.212790] (-) TimerEvent: {}
+[3.313226] (-) TimerEvent: {}
+[3.413660] (-) TimerEvent: {}
+[3.514078] (-) TimerEvent: {}
+[3.614540] (-) TimerEvent: {}
+[3.714987] (-) TimerEvent: {}
+[3.815447] (-) TimerEvent: {}
+[3.915857] (-) TimerEvent: {}
+[4.016287] (-) TimerEvent: {}
+[4.116620] (-) TimerEvent: {}
+[4.128815] (my_cashier_system) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bill_subscriber_node.dir/build.make:76: CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o] Error 1\n'}
+[4.129060] (my_cashier_system) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/bill_subscriber_node.dir/all] Error 2\n'}
+[4.129341] (my_cashier_system) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.131586] (my_cashier_system) CommandEnded: {'returncode': 2}
+[4.138702] (my_cashier_system) JobEnded: {'identifier': 'my_cashier_system', 'rc': 2}
+[4.149242] (-) EventReactorShutdown: {}

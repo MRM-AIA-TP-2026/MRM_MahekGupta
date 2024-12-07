@@ -1,0 +1,445 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000266] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000308] (my_cashier_system) JobQueued: {'identifier': 'my_cashier_system', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/mahek/ros2_ws/install/tutorial_interfaces')])}
+[0.000339] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.003729] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.007933] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.008846] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.008951] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahek/ros2_ws/build/tutorial_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/mahek/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9045'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1583,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1583'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5ed5864_7fb2_4004_bbd7_663edbc061e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4JGMY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.314'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.038958] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099341] (-) TimerEvent: {}
+[0.139298] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.158983] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.160508] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.164371] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.170446] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.178263] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199442] (-) TimerEvent: {}
+[0.201175] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.299545] (-) TimerEvent: {}
+[0.382854] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/mahek/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/home/mahek/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mahek/ros2_ws/src/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'mahek', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mahek', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '9045', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mahek/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mahek', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mahek', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1583,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1583', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a5ed5864_7fb2_4004_bbd7_663edbc061e8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4JGMY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.314', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mahek/ros2_ws/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mahek/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp'}, 'shell': False}
+[0.399672] (-) TimerEvent: {}
+[0.413921] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.499920] (-) TimerEvent: {}
+[0.530866] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[0.531344] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[0.532370] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[0.532526] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[0.532624] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[0.532825] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[0.532925] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[0.533253] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[0.533394] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[0.533497] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[0.533698] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[0.533827] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[0.534515] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[0.534659] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.535646] (my_robot_controller) StdoutLine: {'line': b"removing '/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.535889] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[0.536077] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[0.550283] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /home/mahek/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[0.550555] (my_robot_controller) StdoutLine: {'line': b'Installing pose_subscriber script to /home/mahek/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[0.550659] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/mahek/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[0.550902] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/mahek/ros2_ws/build/my_robot_controller/install.log'\n"}
+[0.567847] (my_robot_controller) CommandEnded: {'returncode': 0}
+[0.574590] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[0.600059] (-) TimerEvent: {}
+[0.700356] (-) TimerEvent: {}
+[0.758167] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800467] (-) TimerEvent: {}
+[0.900900] (-) TimerEvent: {}
+[0.913411] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.940057] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.959819] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.960025] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.960124] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.987102] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.992098] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.992521] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.993941] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001048] (-) TimerEvent: {}
+[1.012858] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.020524] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/mahek/ros2_ws/build/tutorial_interfaces\n'}
+[1.046190] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.058524] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.062552] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[1.101187] (-) TimerEvent: {}
+[1.201466] (-) TimerEvent: {}
+[1.215318] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/bill__functions.c.o\x1b[0m\n'}
+[1.224607] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] Built target tutorial_interfaces__cpp\n'}
+[1.233183] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.237736] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.237946] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.253891] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.298437] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[1.301588] (-) TimerEvent: {}
+[1.311348] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.311569] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.311673] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.401693] (-) TimerEvent: {}
+[1.401962] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/bill__type_support.cpp.o\x1b[0m\n'}
+[1.419578] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.421394] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[1.421622] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[1.421849] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[1.424527] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[1.425084] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/bill__type_support.cpp.o\x1b[0m\n'}
+[1.425419] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[1.459412] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/bill__type_support.cpp.o\x1b[0m\n'}
+[1.462094] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[1.479597] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.501799] (-) TimerEvent: {}
+[1.508114] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[1.541984] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/bill__type_support.cpp.o\x1b[0m\n'}
+[1.602140] (-) TimerEvent: {}
+[1.628291] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/bill__type_support.c.o\x1b[0m\n'}
+[1.630527] (tutorial_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/bill__type_support_c.cpp.o\x1b[0m\n'}
+[1.641369] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.651728] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.653820] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.689754] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.693068] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[1.702213] (-) TimerEvent: {}
+[1.713947] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.802441] (-) TimerEvent: {}
+[1.842726] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.888075] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.897774] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.902549] (-) TimerEvent: {}
+[1.956347] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.977869] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces\n'}
+[2.002517] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.002754] (-) TimerEvent: {}
+[2.103106] (-) TimerEvent: {}
+[2.201026] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__py\n'}
+[2.203416] (-) TimerEvent: {}
+[2.223913] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_bill_s.c.o\x1b[0m\n'}
+[2.303263] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[2.303477] (-) TimerEvent: {}
+[2.345514] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[2.358695] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.358935] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.360939] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.372408] (tutorial_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.373571] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.375030] (tutorial_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.403625] (-) TimerEvent: {}
+[2.436582] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.442323] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.476089] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.485103] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.488848] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.503782] (-) TimerEvent: {}
+[2.529154] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.545750] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[2.546734] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[2.558380] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mahek/ros2_ws/build/tutorial_interfaces'], 'cwd': '/home/mahek/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9045'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1583,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1583'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5ed5864_7fb2_4004_bbd7_663edbc061e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4JGMY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.314'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[2.566545] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.566758] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[2.566929] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[2.567040] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[2.567141] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[2.567493] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__functions.c\n'}
+[2.567608] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__functions.h\n'}
+[2.567728] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__struct.h\n'}
+[2.567870] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[2.567956] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[2.568039] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__type_support.h\n'}
+[2.568129] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[2.568294] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[2.568389] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[2.568482] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.568574] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/bill.h\n'}
+[2.568666] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[2.568757] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[2.568848] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[2.568939] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[2.569030] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[2.569121] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[2.569244] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[2.569338] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__rosidl_typesupport_fastrtps_c.h\n'}
+[2.569430] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[2.569522] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.569725] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.569821] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.569971] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[2.570067] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[2.570163] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[2.570324] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__builder.hpp\n'}
+[2.570412] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[2.570498] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__struct.hpp\n'}
+[2.570583] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[2.570666] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__traits.hpp\n'}
+[2.570748] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[2.570830] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/bill.hpp\n'}
+[2.570912] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[2.571000] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[2.571082] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[2.571173] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[2.571260] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.571342] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[2.571423] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.571505] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.571586] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.571668] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.571750] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[2.571838] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[2.571921] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[2.572002] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[2.572084] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__type_support.c\n'}
+[2.572172] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[2.572259] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__rosidl_typesupport_introspection_c.h\n'}
+[2.572346] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.572430] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.572512] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.572593] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[2.572674] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[2.572755] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[2.572835] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[2.572917] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[2.572999] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__type_support.cpp\n'}
+[2.573081] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[2.573168] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/bill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.573254] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.573334] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.573415] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.573502] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.573584] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[2.573662] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[2.573740] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[2.573817] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[2.573895] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.573972] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.574051] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.574130] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.574217] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[2.574295] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.574371] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[2.574446] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[2.574525] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.574600] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.574676] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.574750] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[2.574825] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py\n'}
+[2.574900] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[2.574975] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[2.575057] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_bill_s.c\n'}
+[2.575134] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_bill.py\n'}
+[2.575222] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.575301] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.593869] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[2.594054] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[2.594179] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[2.594274] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...\n"}
+[2.594316] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_bill.py'...\n"}
+[2.596915] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.597101] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.597207] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.597507] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.597593] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.597631] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.597664] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[2.597693] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[2.597741] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Bill.idl\n'}
+[2.597809] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Bill.msg\n'}
+[2.597858] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[2.597902] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[2.597946] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[2.597991] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.598041] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[2.598070] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[2.598099] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[2.598127] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[2.598164] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[2.598194] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[2.598237] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[2.598263] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[2.598317] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.598344] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.598392] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.598438] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.598484] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.598517] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.598559] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.598608] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.598654] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.598711] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.598741] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.598771] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.598798] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.598826] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.598854] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.598902] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.598954] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.598980] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.599004] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.599030] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.599057] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.599082] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.599105] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.599129] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.599159] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[2.599185] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[2.599211] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[2.600730] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[2.604095] (-) TimerEvent: {}
+[2.609890] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[2.610290] (my_cashier_system) JobStarted: {'identifier': 'my_cashier_system'}
+[2.615996] (my_cashier_system) JobProgress: {'identifier': 'my_cashier_system', 'progress': 'cmake'}
+[2.616405] (my_cashier_system) JobProgress: {'identifier': 'my_cashier_system', 'progress': 'build'}
+[2.616703] (my_cashier_system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahek/ros2_ws/build/my_cashier_system', '--', '-j12', '-l12'], 'cwd': '/home/mahek/ros2_ws/build/my_cashier_system', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9045'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1583,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1583'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5ed5864_7fb2_4004_bbd7_663edbc061e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4JGMY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.314'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/ros2_ws/build/my_cashier_system'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[2.645166] (my_cashier_system) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.704259] (-) TimerEvent: {}
+[2.757545] (my_cashier_system) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.776536] (my_cashier_system) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.777989] (my_cashier_system) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.781892] (my_cashier_system) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.788019] (my_cashier_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.795999] (my_cashier_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.804341] (-) TimerEvent: {}
+[2.816839] (my_cashier_system) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.817810] (my_cashier_system) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.904497] (-) TimerEvent: {}
+[2.916336] (my_cashier_system) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.948709] (my_cashier_system) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[2.967910] (my_cashier_system) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.004595] (-) TimerEvent: {}
+[3.014985] (my_cashier_system) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.015134] (my_cashier_system) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.015196] (my_cashier_system) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.015297] (my_cashier_system) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.015805] (my_cashier_system) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.015904] (my_cashier_system) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.015994] (my_cashier_system) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.016374] (my_cashier_system) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.025811] (my_cashier_system) StdoutLine: {'line': b'-- Generating done\n'}
+[3.029844] (my_cashier_system) StdoutLine: {'line': b'-- Build files have been written to: /home/mahek/ros2_ws/build/my_cashier_system\n'}
+[3.057695] (my_cashier_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bill_display_node\x1b[0m\n'}
+[3.059042] (my_cashier_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bill_subscriber_node\x1b[0m\n'}
+[3.059942] (my_cashier_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bill_publish_node\x1b[0m\n'}
+[3.072943] (my_cashier_system) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o\x1b[0m\n'}
+[3.075547] (my_cashier_system) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o\x1b[0m\n'}
+[3.081017] (my_cashier_system) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bill_publish_node.dir/src/bill_publish_node.cpp.o\x1b[0m\n'}
+[3.104710] (-) TimerEvent: {}
+[3.205009] (-) TimerEvent: {}
+[3.305265] (-) TimerEvent: {}
+[3.405568] (-) TimerEvent: {}
+[3.505928] (-) TimerEvent: {}
+[3.606294] (-) TimerEvent: {}
+[3.706647] (-) TimerEvent: {}
+[3.807000] (-) TimerEvent: {}
+[3.907337] (-) TimerEvent: {}
+[4.007652] (-) TimerEvent: {}
+[4.108829] (-) TimerEvent: {}
+[4.209204] (-) TimerEvent: {}
+[4.309615] (-) TimerEvent: {}
+[4.409967] (-) TimerEvent: {}
+[4.510282] (-) TimerEvent: {}
+[4.610603] (-) TimerEvent: {}
+[4.710954] (-) TimerEvent: {}
+[4.811317] (-) TimerEvent: {}
+[4.911630] (-) TimerEvent: {}
+[5.011991] (-) TimerEvent: {}
+[5.112325] (-) TimerEvent: {}
+[5.212650] (-) TimerEvent: {}
+[5.313016] (-) TimerEvent: {}
+[5.413385] (-) TimerEvent: {}
+[5.513685] (-) TimerEvent: {}
+[5.614034] (-) TimerEvent: {}
+[5.714355] (-) TimerEvent: {}
+[5.815476] (-) TimerEvent: {}
+[5.915786] (-) TimerEvent: {}
+[6.016228] (-) TimerEvent: {}
+[6.116571] (-) TimerEvent: {}
+[6.152872] (my_cashier_system) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable bill_publish_node\x1b[0m\n'}
+[6.216725] (-) TimerEvent: {}
+[6.317050] (-) TimerEvent: {}
+[6.403947] (my_cashier_system) StdoutLine: {'line': b'[ 66%] Built target bill_publish_node\n'}
+[6.417292] (-) TimerEvent: {}
+[6.517662] (-) TimerEvent: {}
+[6.618112] (-) TimerEvent: {}
+[6.718448] (-) TimerEvent: {}
+[6.818902] (-) TimerEvent: {}
+[6.919255] (-) TimerEvent: {}
+[7.019605] (-) TimerEvent: {}
+[7.120033] (-) TimerEvent: {}
+[7.220463] (-) TimerEvent: {}
+[7.320863] (-) TimerEvent: {}
+[7.421314] (-) TimerEvent: {}
+[7.521654] (-) TimerEvent: {}
+[7.622085] (-) TimerEvent: {}
+[7.722521] (-) TimerEvent: {}
+[7.822969] (-) TimerEvent: {}
+[7.923418] (-) TimerEvent: {}
+[8.023853] (-) TimerEvent: {}
+[8.124284] (-) TimerEvent: {}
+[8.224740] (-) TimerEvent: {}
+[8.325196] (-) TimerEvent: {}
+[8.425667] (-) TimerEvent: {}
+[8.514070] (my_cashier_system) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable bill_subscriber_node\x1b[0m\n'}
+[8.525815] (-) TimerEvent: {}
+[8.626232] (-) TimerEvent: {}
+[8.726667] (-) TimerEvent: {}
+[8.797958] (my_cashier_system) StdoutLine: {'line': b'[ 83%] Built target bill_subscriber_node\n'}
+[8.826892] (-) TimerEvent: {}
+[8.927306] (-) TimerEvent: {}
+[9.027721] (-) TimerEvent: {}
+[9.128125] (-) TimerEvent: {}
+[9.228546] (-) TimerEvent: {}
+[9.328952] (-) TimerEvent: {}
+[9.429341] (-) TimerEvent: {}
+[9.529761] (-) TimerEvent: {}
+[9.630189] (-) TimerEvent: {}
+[9.730595] (-) TimerEvent: {}
+[9.831008] (-) TimerEvent: {}
+[9.931426] (-) TimerEvent: {}
+[10.031840] (-) TimerEvent: {}
+[10.132189] (-) TimerEvent: {}
+[10.232516] (-) TimerEvent: {}
+[10.332872] (-) TimerEvent: {}
+[10.433284] (-) TimerEvent: {}
+[10.533570] (-) TimerEvent: {}
+[10.633981] (-) TimerEvent: {}
+[10.734400] (-) TimerEvent: {}
+[10.834807] (-) TimerEvent: {}
+[10.935225] (-) TimerEvent: {}
+[11.035529] (-) TimerEvent: {}
+[11.135939] (-) TimerEvent: {}
+[11.236343] (-) TimerEvent: {}
+[11.336810] (-) TimerEvent: {}
+[11.405051] (my_cashier_system) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bill_display_node\x1b[0m\n'}
+[11.437038] (-) TimerEvent: {}
+[11.537492] (-) TimerEvent: {}
+[11.637924] (-) TimerEvent: {}
+[11.738370] (-) TimerEvent: {}
+[11.789022] (my_cashier_system) StdoutLine: {'line': b'[100%] Built target bill_display_node\n'}
+[11.802292] (my_cashier_system) CommandEnded: {'returncode': 0}
+[11.803208] (my_cashier_system) JobProgress: {'identifier': 'my_cashier_system', 'progress': 'install'}
+[11.803784] (my_cashier_system) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mahek/ros2_ws/build/my_cashier_system'], 'cwd': '/home/mahek/ros2_ws/build/my_cashier_system', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9045'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1583,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1583'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5ed5864_7fb2_4004_bbd7_663edbc061e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4JGMY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.314'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/ros2_ws/build/my_cashier_system'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[11.811384] (my_cashier_system) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.811553] (my_cashier_system) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_publish_node\n'}
+[11.812385] (my_cashier_system) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_publish_node" to ""\n'}
+[11.812526] (my_cashier_system) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_subscriber_node\n'}
+[11.814409] (my_cashier_system) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_subscriber_node" to ""\n'}
+[11.814592] (my_cashier_system) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_display_node\n'}
+[11.817018] (my_cashier_system) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_display_node" to ""\n'}
+[11.817214] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/package_run_dependencies/my_cashier_system\n'}
+[11.817440] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/parent_prefix_path/my_cashier_system\n'}
+[11.817542] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/ament_prefix_path.sh\n'}
+[11.817631] (my_cashier_system) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/ament_prefix_path.dsv\n'}
+[11.817715] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/path.sh\n'}
+[11.817796] (my_cashier_system) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/path.dsv\n'}
+[11.817876] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.bash\n'}
+[11.817956] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.sh\n'}
+[11.818041] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.zsh\n'}
+[11.818126] (my_cashier_system) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.dsv\n'}
+[11.818313] (my_cashier_system) StdoutLine: {'line': b'-- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/package.dsv\n'}
+[11.818363] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/packages/my_cashier_system\n'}
+[11.818397] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/cmake/my_cashier_systemConfig.cmake\n'}
+[11.818426] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/cmake/my_cashier_systemConfig-version.cmake\n'}
+[11.818457] (my_cashier_system) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/package.xml\n'}
+[11.819466] (my_cashier_system) CommandEnded: {'returncode': 0}
+[11.826035] (my_cashier_system) JobEnded: {'identifier': 'my_cashier_system', 'rc': 0}
+[11.826668] (-) EventReactorShutdown: {}

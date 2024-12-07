@@ -1,0 +1,62 @@
+[0.011s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target bill_display_node[0m
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target bill_publisher_node[0m
+[0.073s] [ 16%] [32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o[0m
+[0.075s] [ 33%] [32mBuilding CXX object CMakeFiles/bill_publisher_node.dir/src/bill_publish_node.cpp.o[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o[0m
+[0.202s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/empty.hpp: No such file or directory
+[0.202s]     3 | #include [01;31m[K<std_srvs/srv/empty.hpp>[m[K
+[0.202s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.202s] compilation terminated.
+[0.213s] gmake[2]: *** [CMakeFiles/bill_subscriber_node.dir/build.make:76: CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o] Error 1
+[0.213s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/bill_subscriber_node.dir/all] Error 2
+[0.213s] gmake[1]: *** Waiting for unfinished jobs....
+[1.930s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In member function ‘[01m[Kvoid BillMonitorNode::display_bill(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.930s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:55:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::SyncParametersClient::get_parameter(const char [10])[m[K’
+[1.931s]    55 |             auto inventory_param = [01;31m[Kparam_client_->get_parameter("inventory")[m[K;
+[1.931s]       |                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.931s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[1.931s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1[m[K:
+[1.931s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:417:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T rclcpp::SyncParametersClient::get_parameter(const string&, const T&)[m[K’
+[1.931s]   417 |   [01;36m[Kget_parameter[m[K(const std::string & parameter_name, const T & default_value)
+[1.931s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.931s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:417:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.931s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:55:64:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.931s]    55 |             auto inventory_param = [01;36m[Kparam_client_->get_parameter("inventory")[m[K;
+[1.931s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.932s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[1.932s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1[m[K:
+[1.932s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:426:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T rclcpp::SyncParametersClient::get_parameter(const string&)[m[K’
+[1.932s]   426 |   [01;36m[Kget_parameter[m[K(const std::string & parameter_name)
+[1.932s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.932s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:426:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.932s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:55:64:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT[m[K’
+[1.932s]    55 |             auto inventory_param = [01;36m[Kparam_client_->get_parameter("inventory")[m[K;
+[1.932s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.932s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:56:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::SyncParametersClient::get_parameter(const char [7])[m[K’
+[1.932s]    56 |             auto income_param = [01;31m[Kparam_client_->get_parameter("income")[m[K;
+[1.932s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.933s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[1.933s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1[m[K:
+[1.933s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:417:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T rclcpp::SyncParametersClient::get_parameter(const string&, const T&)[m[K’
+[1.933s]   417 |   [01;36m[Kget_parameter[m[K(const std::string & parameter_name, const T & default_value)
+[1.933s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.933s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:417:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.933s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:56:61:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.933s]    56 |             auto income_param = [01;36m[Kparam_client_->get_parameter("income")[m[K;
+[1.933s]       |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.933s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[1.933s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1[m[K:
+[1.933s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:426:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T rclcpp::SyncParametersClient::get_parameter(const string&)[m[K’
+[1.934s]   426 |   [01;36m[Kget_parameter[m[K(const std::string & parameter_name)
+[1.934s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.934s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:426:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.934s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:56:61:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT[m[K’
+[1.934s]    56 |             auto income_param = [01;36m[Kparam_client_->get_parameter("income")[m[K;
+[1.934s]       |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[3.024s] [ 66%] [32m[1mLinking CXX executable bill_publisher_node[0m
+[3.178s] [ 66%] Built target bill_publisher_node
+[4.023s] gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+[4.024s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+[4.024s] gmake: *** [Makefile:146: all] Error 2
+[4.027s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

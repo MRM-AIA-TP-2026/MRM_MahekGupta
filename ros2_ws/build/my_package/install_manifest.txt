@@ -1,0 +1,16 @@
+/home/mahek/ros2_ws/install/my_package/lib/my_package/my_node
+/home/mahek/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+/home/mahek/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+/home/mahek/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+/home/mahek/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+/home/mahek/ros2_ws/install/my_package/share/my_package/environment/path.sh
+/home/mahek/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+/home/mahek/ros2_ws/install/my_package/share/my_package/local_setup.bash
+/home/mahek/ros2_ws/install/my_package/share/my_package/local_setup.sh
+/home/mahek/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+/home/mahek/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+/home/mahek/ros2_ws/install/my_package/share/my_package/package.dsv
+/home/mahek/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+/home/mahek/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+/home/mahek/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+/home/mahek/ros2_ws/install/my_package/share/my_package/package.xml

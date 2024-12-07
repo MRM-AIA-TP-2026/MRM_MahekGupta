@@ -1,0 +1,15 @@
+/home/mahek/ros2_ws/src/install/cpp/share/ament_index/resource_index/package_run_dependencies/cpp
+/home/mahek/ros2_ws/src/install/cpp/share/ament_index/resource_index/parent_prefix_path/cpp
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/ament_prefix_path.sh
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/ament_prefix_path.dsv
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/path.sh
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/path.dsv
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.bash
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.sh
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.zsh
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.dsv
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/package.dsv
+/home/mahek/ros2_ws/src/install/cpp/share/ament_index/resource_index/packages/cpp
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/cmake/cppConfig.cmake
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/cmake/cppConfig-version.cmake
+/home/mahek/ros2_ws/src/install/cpp/share/cpp/package.xml

@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target bill[0m
+[35m[1mConsolidate compiler generated dependencies of target inventory[0m
+[35m[1mConsolidate compiler generated dependencies of target monitor[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/bill.dir/src/bill_publish_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/inventory.dir/src/inventory_add_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/monitor.dir/src/bill_display_node.cpp.o[0m

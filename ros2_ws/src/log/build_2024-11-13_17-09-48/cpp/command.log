@@ -1,0 +1,6 @@
+Invoking command in '/home/mahek/ros2_ws/src/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mahek/ros2_ws/src/cpp -DCMAKE_INSTALL_PREFIX=/home/mahek/ros2_ws/src/install/cpp
+Invoked command in '/home/mahek/ros2_ws/src/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mahek/ros2_ws/src/cpp -DCMAKE_INSTALL_PREFIX=/home/mahek/ros2_ws/src/install/cpp
+Invoking command in '/home/mahek/ros2_ws/src/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/src/build/cpp -- -j12 -l12
+Invoked command in '/home/mahek/ros2_ws/src/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/src/build/cpp -- -j12 -l12
+Invoking command in '/home/mahek/ros2_ws/src/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahek/ros2_ws/src/build/cpp
+Invoked command in '/home/mahek/ros2_ws/src/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahek/ros2_ws/src/build/cpp

@@ -1,0 +1,20 @@
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/Bill.hpp: No such file or directory
+    2 | #include [01;31m[K"my_cashier_system/msg/Bill.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/monitor.dir/build.make:76: CMakeFiles/monitor.dir/src/bill_display_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:648: CMakeFiles/monitor.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/inventory_add_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/Bill.hpp: No such file or directory
+    2 | #include [01;31m[K"my_cashier_system/msg/Bill.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/inventory.dir/build.make:76: CMakeFiles/inventory.dir/src/inventory_add_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/inventory.dir/all] Error 2
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/Bill.hpp: No such file or directory
+    2 | #include [01;31m[K"my_cashier_system/msg/Bill.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bill.dir/build.make:76: CMakeFiles/bill.dir/src/bill_publish_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/bill.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

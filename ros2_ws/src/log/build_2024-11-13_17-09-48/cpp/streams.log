@@ -1,0 +1,42 @@
+[0.008s] Invoking command in '/home/mahek/ros2_ws/src/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mahek/ros2_ws/src/cpp -DCMAKE_INSTALL_PREFIX=/home/mahek/ros2_ws/src/install/cpp
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.117s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.406s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.464s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.513s] -- Added test 'lint_cmake' to check CMake code style
+[0.513s] -- Added test 'xmllint' to check XML markup files
+[0.514s] -- Configuring done
+[0.515s] -- Generating done
+[0.516s] -- Build files have been written to: /home/mahek/ros2_ws/src/build/cpp
+[0.520s] Invoked command in '/home/mahek/ros2_ws/src/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mahek/ros2_ws/src/cpp -DCMAKE_INSTALL_PREFIX=/home/mahek/ros2_ws/src/install/cpp
+[0.521s] Invoking command in '/home/mahek/ros2_ws/src/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/src/build/cpp -- -j12 -l12
+[0.554s] Invoked command in '/home/mahek/ros2_ws/src/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/src/build/cpp -- -j12 -l12
+[0.587s] Invoking command in '/home/mahek/ros2_ws/src/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahek/ros2_ws/src/build/cpp
+[0.595s] -- Install configuration: ""
+[0.595s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/ament_index/resource_index/package_run_dependencies/cpp
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/ament_index/resource_index/parent_prefix_path/cpp
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/ament_prefix_path.sh
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/ament_prefix_path.dsv
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/path.sh
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/path.dsv
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.bash
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.sh
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.zsh
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.dsv
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/package.dsv
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/ament_index/resource_index/packages/cpp
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/cmake/cppConfig.cmake
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/cmake/cppConfig-version.cmake
+[0.596s] -- Installing: /home/mahek/ros2_ws/src/install/cpp/share/cpp/package.xml
+[0.598s] Invoked command in '/home/mahek/ros2_ws/src/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahek/ros2_ws/src/build/cpp

@@ -1,0 +1,32 @@
+[  5%] Built target my_cashier_system__cpp
+[  5%] [32mBuilding CXX object CMakeFiles/inventory.dir/src/inventory_add_node.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/bill.dir/src/bill_publish_node.cpp.o[0m
+[ 16%] Built target my_cashier_system__rosidl_generator_c
+[ 18%] [32mBuilding CXX object CMakeFiles/monitor.dir/src/bill_display_node.cpp.o[0m
+[ 18%] Built target ament_cmake_python_copy_my_cashier_system
+[ 27%] Built target my_cashier_system__rosidl_typesupport_introspection_cpp
+[ 56%] Built target my_cashier_system__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target my_cashier_system__rosidl_typesupport_cpp
+[ 56%] Built target my_cashier_system__rosidl_typesupport_c
+[ 59%] Built target my_cashier_system__rosidl_typesupport_introspection_c
+[ 67%] Built target my_cashier_system__rosidl_typesupport_fastrtps_c
+[ 67%] Built target my_cashier_system
+[ 70%] Built target my_cashier_system__py
+[35m[1mConsolidate compiler generated dependencies of target my_cashier_system__rosidl_generator_py[0m
+[ 75%] Built target my_cashier_system__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/my_cashier_system__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_cashier_system/_my_cashier_system_s.ep.rosidl_typesupport_c.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/my_cashier_system__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_cashier_system/_my_cashier_system_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/my_cashier_system__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_cashier_system/_my_cashier_system_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+running egg_info
+writing my_cashier_system.egg-info/PKG-INFO
+writing dependency_links to my_cashier_system.egg-info/dependency_links.txt
+writing top-level names to my_cashier_system.egg-info/top_level.txt
+reading manifest file 'my_cashier_system.egg-info/SOURCES.txt'
+writing manifest file 'my_cashier_system.egg-info/SOURCES.txt'
+[ 83%] Built target ament_cmake_python_build_my_cashier_system_egg
+[ 86%] [32m[1mLinking C shared library rosidl_generator_py/my_cashier_system/my_cashier_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/my_cashier_system/my_cashier_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 89%] Built target my_cashier_system__rosidl_typesupport_introspection_c__pyext
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/my_cashier_system/my_cashier_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 91%] Built target my_cashier_system__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target my_cashier_system__rosidl_typesupport_c__pyext

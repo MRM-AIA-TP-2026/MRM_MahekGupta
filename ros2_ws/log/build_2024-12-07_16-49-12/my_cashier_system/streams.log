@@ -1,0 +1,19 @@
+[0.009s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target bill_publisher_node[0m
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target bill_display_node[0m
+[0.067s] [ 16%] [32mBuilding CXX object CMakeFiles/bill_publisher_node.dir/src/bill_publish_node.cpp.o[0m
+[0.068s] [ 33%] [32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o[0m
+[0.074s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp: No such file or directory
+[0.074s] compilation terminated.
+[0.075s] gmake[2]: *** [CMakeFiles/bill_subscriber_node.dir/build.make:76: CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o] Error 1
+[0.076s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/bill_subscriber_node.dir/all] Error 2
+[0.076s] gmake[1]: *** Waiting for unfinished jobs....
+[0.077s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp: No such file or directory
+[0.077s] compilation terminated.
+[0.078s] gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+[0.078s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+[2.823s] [ 66%] [32m[1mLinking CXX executable bill_publisher_node[0m
+[2.948s] [ 66%] Built target bill_publisher_node
+[2.949s] gmake: *** [Makefile:146: all] Error 2
+[2.952s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

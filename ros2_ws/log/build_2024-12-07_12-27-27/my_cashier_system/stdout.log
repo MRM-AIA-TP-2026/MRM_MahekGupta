@@ -1,0 +1,3 @@
+[ 33%] Built target bill_subscriber_node
+[ 50%] [32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o[0m
+[ 83%] Built target bill_publish_node

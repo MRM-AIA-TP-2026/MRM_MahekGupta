@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target bill_display_node[0m
+[35m[1mConsolidate compiler generated dependencies of target bill_subscriber_node[0m
+[ 33%] Built target bill_publisher_node
+[ 66%] Built target bill_subscriber_node
+[ 83%] [32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable bill_display_node[0m
+[100%] Built target bill_display_node
+-- Install configuration: ""
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_publisher_node
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_subscriber_node
+-- Installing: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_display_node
+-- Set runtime path of "/home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_display_node" to ""
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/package_run_dependencies/my_cashier_system
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/parent_prefix_path/my_cashier_system
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/path.sh
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/path.dsv
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.bash
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.sh
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.zsh
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.dsv
+-- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/package.dsv
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/packages/my_cashier_system
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/cmake/my_cashier_systemConfig.cmake
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/cmake/my_cashier_systemConfig-version.cmake
+-- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/package.xml

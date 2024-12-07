@@ -1,0 +1,27 @@
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In constructor ‘[01m[KBillDisplayNode::BillDisplayNode()[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:8:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::Num_(<brace-enclosed initializer list>)[m[K’
+    8 |     : Node("bill_display_node"), [01;31m[Klast_bill_({0, "", 0, 0.0, 0.0})[m[K, inventory_(100), income_(0.0)
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7[m[K,
+                 from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:2[m[K:
+[01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:49:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktutorial_interfaces::msg::Num_<ContainerAllocator>::Num_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   49 |   explicit [01;36m[KNum_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~[m[K
+[01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:49:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   49 |   explicit Num_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktutorial_interfaces::msg::Num_<ContainerAllocator>::Num_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KNum_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~[m[K
+[01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:36:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit Num_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::Num_(const tutorial_interfaces::msg::Num_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KNum_[m[K
+      |        [01;36m[K^~~~[m[K
+[01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst tutorial_interfaces::msg::Num_<std::allocator<void> >&[m[K’
+[01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::Num_(tutorial_interfaces::msg::Num_<std::allocator<void> >&&)[m[K’
+[01m[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >&&[m[K’
+gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

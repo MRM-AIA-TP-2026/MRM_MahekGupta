@@ -1,0 +1,24 @@
+[  2%] [32mBuilding CXX object CMakeFiles/bill.dir/src/bill_publish_node.cpp.o[0m
+[ 10%] Built target my_cashier_system__rosidl_generator_c
+[ 18%] Built target my_cashier_system__cpp
+[ 18%] [32mBuilding CXX object CMakeFiles/monitor.dir/src/bill_display_node.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/inventory.dir/src/inventory_add_node.cpp.o[0m
+[ 18%] Built target ament_cmake_python_copy_my_cashier_system
+[ 27%] Built target my_cashier_system__rosidl_typesupport_fastrtps_c
+[ 35%] Built target my_cashier_system__rosidl_typesupport_c
+[ 43%] Built target my_cashier_system__rosidl_typesupport_introspection_c
+[ 51%] Built target my_cashier_system__rosidl_typesupport_introspection_cpp
+[ 59%] Built target my_cashier_system__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target my_cashier_system__rosidl_typesupport_cpp
+[ 67%] Built target my_cashier_system
+[ 70%] Built target my_cashier_system__py
+[ 72%] [32mBuilding C object CMakeFiles/my_cashier_system__rosidl_generator_py.dir/rosidl_generator_py/my_cashier_system/msg/_bill_s.c.o[0m
+[ 75%] [32m[1mLinking C shared library rosidl_generator_py/my_cashier_system/libmy_cashier_system__rosidl_generator_py.so[0m
+[ 75%] Built target my_cashier_system__rosidl_generator_py
+running egg_info
+writing my_cashier_system.egg-info/PKG-INFO
+writing dependency_links to my_cashier_system.egg-info/dependency_links.txt
+writing top-level names to my_cashier_system.egg-info/top_level.txt
+reading manifest file 'my_cashier_system.egg-info/SOURCES.txt'
+writing manifest file 'my_cashier_system.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_my_cashier_system_egg

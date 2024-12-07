@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target bill[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/bill.dir/src/bill_publish_node.cpp.o[0m
+[1.504s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:[m[K In member function ‘[01m[Kvoid BillPublisherNode::publish_bill()[m[K’:
+[1.504s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:29:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Kto_string[m[K’
+[1.504s]    29 |         message.time = now.[01;31m[Kto_string[m[K(); // Convert time to string format
+[1.504s]       |                            [01;31m[K^~~~~~~~~[m[K
+[2.028s] gmake[2]: *** [CMakeFiles/bill.dir/build.make:76: CMakeFiles/bill.dir/src/bill_publish_node.cpp.o] Error 1
+[2.028s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bill.dir/all] Error 2
+[2.028s] gmake: *** [Makefile:146: all] Error 2
+[2.031s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target bill_display_node[0m
+[0.073s] [ 16%] [32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o[0m
+[0.075s] [ 33%] [32mBuilding CXX object CMakeFiles/bill_publish_node.dir/src/bill_publish_node.cpp.o[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o[0m
+[0.191s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/update_inventory.hpp: No such file or directory
+[0.191s]     3 | #include [01;31m[K"tutorial_interfaces/srv/update_inventory.hpp"[m[K
+[0.192s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.192s] compilation terminated.
+[0.201s] gmake[2]: *** [CMakeFiles/bill_subscriber_node.dir/build.make:76: CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o] Error 1
+[0.202s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/bill_subscriber_node.dir/all] Error 2
+[0.202s] gmake[1]: *** Waiting for unfinished jobs....
+[1.535s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:[m[K In member function ‘[01m[Kvoid BillPublisherNode::publish_bill()[m[K’:
+[1.535s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:21:50:[m[K [01;31m[Kerror: [m[K‘[01m[Knum[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::msg[m[K’; did you mean ‘[01m[KNum[m[K’?
+[1.535s]    21 |         auto message = tutorial_interfaces::msg::[01;31m[Knum[m[K();
+[1.535s]       |                                                  [01;31m[K^~~[m[K
+[1.535s]       |                                                  [32m[KNum[m[K
+[1.575s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In constructor ‘[01m[KBillDisplayNode::BillDisplayNode()[m[K’:
+[1.575s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:15:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[1.575s]    15 |             [01;31m[K5s[m[K, std::bind(&BillDisplayNode::print_status, this));
+[1.575s]       |             [01;31m[K^~[m[K
+[1.864s] gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+[1.864s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+[2.014s] gmake[2]: *** [CMakeFiles/bill_publish_node.dir/build.make:76: CMakeFiles/bill_publish_node.dir/src/bill_publish_node.cpp.o] Error 1
+[2.014s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/bill_publish_node.dir/all] Error 2
+[2.014s] gmake: *** [Makefile:146: all] Error 2
+[2.017s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

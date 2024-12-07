@@ -1,0 +1,23 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/bill_publish_node.dir/src/bill_publish_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o[0m
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/Num.hpp: No such file or directory
+    2 | #include [01;31m[K"tutorial_interfaces/msg/Num.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/bill.hpp: No such file or directory
+    2 | #include [01;31m[K"tutorial_interfaces/msg/bill.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/bill_publish_node.dir/build.make:76: CMakeFiles/bill_publish_node.dir/src/bill_publish_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/bill_publish_node.dir/all] Error 2
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/Num.hpp: No such file or directory
+    2 | #include [01;31m[K"tutorial_interfaces/msg/Num.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bill_subscriber_node.dir/build.make:76: CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/bill_subscriber_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

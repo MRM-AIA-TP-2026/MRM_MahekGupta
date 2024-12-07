@@ -1,0 +1,54 @@
+[0.010s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.064s] [  5%] Built target my_cashier_system__cpp
+[0.064s] [  5%] [32mBuilding CXX object CMakeFiles/inventory.dir/src/inventory_add_node.cpp.o[0m
+[0.068s] [ 13%] [32mBuilding CXX object CMakeFiles/bill.dir/src/bill_publish_node.cpp.o[0m
+[0.068s] [ 16%] Built target my_cashier_system__rosidl_generator_c
+[0.068s] [ 18%] [32mBuilding CXX object CMakeFiles/monitor.dir/src/bill_display_node.cpp.o[0m
+[0.074s] [ 18%] Built target ament_cmake_python_copy_my_cashier_system
+[0.087s] [ 27%] Built target my_cashier_system__rosidl_typesupport_introspection_cpp
+[0.092s] [ 56%] Built target my_cashier_system__rosidl_typesupport_fastrtps_cpp
+[0.092s] [ 56%] Built target my_cashier_system__rosidl_typesupport_cpp
+[0.092s] [ 56%] Built target my_cashier_system__rosidl_typesupport_c
+[0.092s] [ 59%] Built target my_cashier_system__rosidl_typesupport_introspection_c
+[0.092s] [ 67%] Built target my_cashier_system__rosidl_typesupport_fastrtps_c
+[0.116s] [ 67%] Built target my_cashier_system
+[0.140s] [ 70%] Built target my_cashier_system__py
+[0.152s] [35m[1mConsolidate compiler generated dependencies of target my_cashier_system__rosidl_generator_py[0m
+[0.167s] [ 75%] Built target my_cashier_system__rosidl_generator_py
+[0.191s] [ 83%] [32mBuilding C object CMakeFiles/my_cashier_system__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_cashier_system/_my_cashier_system_s.ep.rosidl_typesupport_c.c.o[0m
+[0.192s] [ 83%] [32mBuilding C object CMakeFiles/my_cashier_system__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_cashier_system/_my_cashier_system_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.192s] [ 83%] [32mBuilding C object CMakeFiles/my_cashier_system__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_cashier_system/_my_cashier_system_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.192s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/inventory_add_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/Bill.hpp: No such file or directory
+[0.192s]     2 | #include [01;31m[K"my_cashier_system/msg/Bill.hpp"[m[K
+[0.192s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.193s] compilation terminated.
+[0.195s] gmake[2]: *** [CMakeFiles/inventory.dir/build.make:76: CMakeFiles/inventory.dir/src/inventory_add_node.cpp.o] Error 1
+[0.195s] gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/inventory.dir/all] Error 2
+[0.196s] gmake[1]: *** Waiting for unfinished jobs....
+[0.233s] running egg_info
+[0.234s] writing my_cashier_system.egg-info/PKG-INFO
+[0.234s] writing dependency_links to my_cashier_system.egg-info/dependency_links.txt
+[0.234s] writing top-level names to my_cashier_system.egg-info/top_level.txt
+[0.236s] reading manifest file 'my_cashier_system.egg-info/SOURCES.txt'
+[0.236s] writing manifest file 'my_cashier_system.egg-info/SOURCES.txt'
+[0.261s] [ 83%] Built target ament_cmake_python_build_my_cashier_system_egg
+[0.270s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/my_cashier_system/my_cashier_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.278s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/my_cashier_system/my_cashier_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.296s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/Bill.hpp: No such file or directory
+[0.296s]     2 | #include [01;31m[K"my_cashier_system/msg/Bill.hpp"[m[K
+[0.296s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.296s] compilation terminated.
+[0.298s] gmake[2]: *** [CMakeFiles/monitor.dir/build.make:76: CMakeFiles/monitor.dir/src/bill_display_node.cpp.o] Error 1
+[0.299s] gmake[1]: *** [CMakeFiles/Makefile2:648: CMakeFiles/monitor.dir/all] Error 2
+[0.302s] [ 89%] Built target my_cashier_system__rosidl_typesupport_introspection_c__pyext
+[0.307s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/my_cashier_system/my_cashier_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.314s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/Bill.hpp: No such file or directory
+[0.315s]     2 | #include [01;31m[K"my_cashier_system/msg/Bill.hpp"[m[K
+[0.315s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.315s] compilation terminated.
+[0.319s] gmake[2]: *** [CMakeFiles/bill.dir/build.make:76: CMakeFiles/bill.dir/src/bill_publish_node.cpp.o] Error 1
+[0.319s] gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/bill.dir/all] Error 2
+[0.322s] [ 91%] Built target my_cashier_system__rosidl_typesupport_fastrtps_c__pyext
+[0.351s] [ 91%] Built target my_cashier_system__rosidl_typesupport_c__pyext
+[0.352s] gmake: *** [Makefile:146: all] Error 2
+[0.355s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

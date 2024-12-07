@@ -1,0 +1,50 @@
+[0.011s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.033s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.154s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.156s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.160s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.194s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.194s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.274s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.308s] -- Found tutorial_interfaces: 0.0.0 (/home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.326s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.371s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.372s] -- Configured cppcheck include dirs: 
+[0.372s] -- Configured cppcheck exclude dirs and/or files: 
+[0.372s] -- Added test 'lint_cmake' to check CMake code style
+[0.372s] -- Added test 'uncrustify' to check C / C++ code style
+[0.372s] -- Configured uncrustify additional arguments: 
+[0.372s] -- Added test 'xmllint' to check XML markup files
+[0.373s] -- Configuring done
+[0.380s] -- Generating done
+[0.383s] -- Build files have been written to: /home/mahek/ros2_ws/build/my_cashier_system
+[0.405s] [35m[1mConsolidate compiler generated dependencies of target bill[0m
+[0.416s] [ 25%] [32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o[0m
+[0.418s] [ 75%] Built target bill
+[5.489s] [100%] [32m[1mLinking CXX executable bill_subscriber_node[0m
+[5.758s] [100%] Built target bill_subscriber_node
+[5.772s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '0': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[5.785s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/ros2_ws/build/my_cashier_system
+[5.794s] -- Install configuration: ""
+[5.794s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill
+[5.794s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_subscriber_node
+[5.797s] -- Set runtime path of "/home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_subscriber_node" to ""
+[5.797s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/package_run_dependencies/my_cashier_system
+[5.798s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/parent_prefix_path/my_cashier_system
+[5.798s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/ament_prefix_path.sh
+[5.798s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/ament_prefix_path.dsv
+[5.798s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/path.sh
+[5.798s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/path.dsv
+[5.798s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.bash
+[5.798s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.sh
+[5.798s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.zsh
+[5.798s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.dsv
+[5.798s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/package.dsv
+[5.799s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/packages/my_cashier_system
+[5.799s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/cmake/my_cashier_systemConfig.cmake
+[5.799s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/cmake/my_cashier_systemConfig-version.cmake
+[5.799s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/package.xml
+[5.800s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '0': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/ros2_ws/build/my_cashier_system

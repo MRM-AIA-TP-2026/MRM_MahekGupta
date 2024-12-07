@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target bill[0m
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target inventory[0m
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target monitor[0m
+[0.063s] [ 16%] [32mBuilding CXX object CMakeFiles/bill.dir/src/bill_publish_node.cpp.o[0m
+[0.068s] [ 33%] [32mBuilding CXX object CMakeFiles/inventory.dir/src/inventory_add_node.cpp.o[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/monitor.dir/src/bill_display_node.cpp.o[0m
+[0.248s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/bill.hpp: No such file or directory
+[0.248s]     2 | #include [01;31m[K"my_cashier_system/msg/bill.hpp"[m[K
+[0.249s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.249s] compilation terminated.
+[0.251s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/bill.hpp: No such file or directory
+[0.251s]     2 | #include [01;31m[K"my_cashier_system/msg/bill.hpp"[m[K
+[0.251s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.251s] compilation terminated.
+[0.251s] gmake[2]: *** [CMakeFiles/bill.dir/build.make:76: CMakeFiles/bill.dir/src/bill_publish_node.cpp.o] Error 1
+[0.251s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/bill.dir/all] Error 2
+[0.251s] gmake[1]: *** Waiting for unfinished jobs....
+[0.252s] gmake[2]: *** [CMakeFiles/monitor.dir/build.make:76: CMakeFiles/monitor.dir/src/bill_display_node.cpp.o] Error 1
+[0.252s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/monitor.dir/all] Error 2
+[0.279s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/inventory_add_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_cashier_system/msg/bill.hpp: No such file or directory
+[0.279s]     2 | #include [01;31m[K"my_cashier_system/msg/bill.hpp"[m[K
+[0.279s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.279s] compilation terminated.
+[0.281s] gmake[2]: *** [CMakeFiles/inventory.dir/build.make:76: CMakeFiles/inventory.dir/src/inventory_add_node.cpp.o] Error 1
+[0.282s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/inventory.dir/all] Error 2
+[0.282s] gmake: *** [Makefile:146: all] Error 2
+[0.285s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

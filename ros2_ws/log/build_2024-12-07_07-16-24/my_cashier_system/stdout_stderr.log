@@ -1,0 +1,75 @@
+[35m[1mConsolidate compiler generated dependencies of target bill[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bill.dir/src/bill_publish_node.cpp.o[0m
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[KBillPublisherNode[m[K’ does not name a type
+    5 | [01;31m[KBillPublisherNode[m[K::BillPublisherNode()
+      | [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:20:6:[m[K [01;31m[Kerror: [m[K‘[01m[KBillPublisherNode[m[K’ has not been declared
+   20 | void [01;31m[KBillPublisherNode[m[K::publish_bill()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:[m[K In function ‘[01m[Kvoid publish_bill()[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   31 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:1[m[K:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:33:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   33 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published Bill: Number: %d, Time: %s, Quantity: %d, Price: %.2f, Total: %.2f",
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:33:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:33:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   33 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published Bill: Number: %d, Time: %s, Quantity: %d, Price: %.2f, Total: %.2f",
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:33:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   33 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published Bill: Number: %d, Time: %s, Quantity: %d, Price: %.2f, Total: %.2f",
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:33:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   33 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published Bill: Number: %d, Time: %s, Quantity: %d, Price: %.2f, Total: %.2f",
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:1[m[K:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:33:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   33 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published Bill: Number: %d, Time: %s, Quantity: %d, Price: %.2f, Total: %.2f",
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:33:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   33 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published Bill: Number: %d, Time: %s, Quantity: %d, Price: %.2f, Total: %.2f",
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:40:35:[m[K [01;31m[Kerror: [m[K‘[01m[KBillPublisherNode[m[K’ was not declared in this scope
+   40 |     rclcpp::spin(std::make_shared<[01;31m[KBillPublisherNode[m[K>());
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:40:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   40 |     rclcpp::spin([01;31m[Kstd::make_shared<BillPublisherNode>()[m[K);
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:40:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   40 |     rclcpp::spin([01;31m[Kstd::make_shared<BillPublisherNode>()[m[K);
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/bill.dir/build.make:76: CMakeFiles/bill.dir/src/bill_publish_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bill.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

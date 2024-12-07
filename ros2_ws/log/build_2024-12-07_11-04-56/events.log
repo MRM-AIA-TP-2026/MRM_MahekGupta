@@ -1,0 +1,535 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000257] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000287] (my_cashier_system) JobQueued: {'identifier': 'my_cashier_system', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/mahek/ros2_ws/install/tutorial_interfaces')])}
+[0.000316] (my_cashier_system) JobStarted: {'identifier': 'my_cashier_system'}
+[0.008320] (my_cashier_system) JobProgress: {'identifier': 'my_cashier_system', 'progress': 'cmake'}
+[0.009076] (my_cashier_system) JobProgress: {'identifier': 'my_cashier_system', 'progress': 'build'}
+[0.009122] (my_cashier_system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahek/ros2_ws/build/my_cashier_system', '--', '-j12', '-l12'], 'cwd': '/home/mahek/ros2_ws/build/my_cashier_system', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9045'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1583,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1583'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5ed5864_7fb2_4004_bbd7_663edbc061e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4JGMY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.314'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/ros2_ws/build/my_cashier_system'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.050127] (my_cashier_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bill_display_node\x1b[0m\n'}
+[0.050396] (my_cashier_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bill\x1b[0m\n'}
+[0.053218] (my_cashier_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bill_subscriber_node\x1b[0m\n'}
+[0.062518] (my_cashier_system) StdoutLine: {'line': b'[ 33%] Built target bill_display_node\n'}
+[0.065499] (my_cashier_system) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bill.dir/src/bill_publish_node.cpp.o\x1b[0m\n'}
+[0.073351] (my_cashier_system) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o\x1b[0m\n'}
+[0.082825] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:1:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstray \xe2\x80\x98\x1b[01m\x1b[K##\x1b[m\x1b[K\xe2\x80\x99 in program\n'}
+[0.083019] (my_cashier_system) StderrLine: {'line': b'    1 | \x1b[01;31m\x1b[K##\x1b[m\x1b[Kinclude "rclcpp/rclcpp.hpp"\n'}
+[0.083108] (my_cashier_system) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.099555] (-) TimerEvent: {}
+[0.136283] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:1:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinclude\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.136518] (my_cashier_system) StderrLine: {'line': b'    1 | ##\x1b[01;31m\x1b[Kinclude\x1b[m\x1b[K "rclcpp/rclcpp.hpp"\n'}
+[0.136617] (my_cashier_system) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.136977] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[0.137078] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[0.137166] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[0.137254] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:60\x1b[m\x1b[K,\n'}
+[0.137341] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:8\x1b[m\x1b[K,\n'}
+[0.137441] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7\x1b[m\x1b[K,\n'}
+[0.137679] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2\x1b[m\x1b[K:\n'}
+[0.137782] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:227:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.137877] (my_cashier_system) StderrLine: {'line': b'  227 |   template <typename _Tp, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K = sizeof(_Tp)>\n'}
+[0.137966] (my_cashier_system) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.138054] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:431:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.138145] (my_cashier_system) StderrLine: {'line': b'  431 |   template<typename _Tp, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Size>\n'}
+[0.138245] (my_cashier_system) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.138340] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:432:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.138607] (my_cashier_system) StderrLine: {'line': b'  432 |     struct is_array<_Tp[\x1b[01;31m\x1b[K_Size\x1b[m\x1b[K]>\n'}
+[0.138718] (my_cashier_system) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.138813] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:432:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.138903] (my_cashier_system) StderrLine: {'line': b'  432 |     struct is_array<_Tp[_Size]\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.138999] (my_cashier_system) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.139085] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:537:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knullptr_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.139175] (my_cashier_system) StderrLine: {'line': b'  537 |     struct __is_null_pointer_helper<std::\x1b[01;31m\x1b[Knullptr_t\x1b[m\x1b[K>\n'}
+[0.139374] (my_cashier_system) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.139463] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:537:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.139544] (my_cashier_system) StderrLine: {'line': b'  537 |     struct __is_null_pointer_helper<std::nullptr_t\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.139626] (my_cashier_system) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.139706] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1361:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.139804] (my_cashier_system) StderrLine: {'line': b' 1361 |     : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, alignof(_Tp)>\n'}
+[0.139894] (my_cashier_system) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.139981] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1361:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.140121] (my_cashier_system) StderrLine: {'line': b' 1361 |     : public integral_constant<std::size_t, alignof(_Tp)\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.140207] (my_cashier_system) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.140291] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1361:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[0.140388] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1370:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.140615] (my_cashier_system) StderrLine: {'line': b' 1370 |     : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, 0> { };\n'}
+[0.140709] (my_cashier_system) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.140866] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1370:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.140946] (my_cashier_system) StderrLine: {'line': b' 1370 |     : public integral_constant<std::size_t, 0\x1b[01;31m\x1b[K>\x1b[m\x1b[K { };\n'}
+[0.141027] (my_cashier_system) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.141111] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1370:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[0.141297] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1372:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.141387] (my_cashier_system) StderrLine: {'line': b' 1372 |   template<typename _Tp, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Size>\n'}
+[0.141475] (my_cashier_system) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.141554] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1373:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.141637] (my_cashier_system) StderrLine: {'line': b' 1373 |     struct rank<_Tp[\x1b[01;31m\x1b[K_Size\x1b[m\x1b[K]>\n'}
+[0.141731] (my_cashier_system) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.141822] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1373:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.141908] (my_cashier_system) StderrLine: {'line': b' 1373 |     struct rank<_Tp[_Size]\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.141995] (my_cashier_system) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.142078] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1374:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.142163] (my_cashier_system) StderrLine: {'line': b' 1374 |     : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, 1 + rank<_Tp>::value> { };\n'}
+[0.142248] (my_cashier_system) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.142333] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1374:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.142465] (my_cashier_system) StderrLine: {'line': b' 1374 |     : public integral_constant<std::size_t, 1 + rank<_Tp>::value\x1b[01;31m\x1b[K>\x1b[m\x1b[K { };\n'}
+[0.142673] (my_cashier_system) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.142754] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1374:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[0.142831] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1378:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.142907] (my_cashier_system) StderrLine: {'line': b' 1378 |     : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, 1 + rank<_Tp>::value> { };\n'}
+[0.142983] (my_cashier_system) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.143059] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1378:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.143137] (my_cashier_system) StderrLine: {'line': b' 1378 |     : public integral_constant<std::size_t, 1 + rank<_Tp>::value\x1b[01;31m\x1b[K>\x1b[m\x1b[K { };\n'}
+[0.143215] (my_cashier_system) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.143295] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1378:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[0.143382] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1383:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.143471] (my_cashier_system) StderrLine: {'line': b' 1383 |     : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, 0> { };\n'}
+[0.143551] (my_cashier_system) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.143631] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1383:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.143761] (my_cashier_system) StderrLine: {'line': b' 1383 |     : public integral_constant<std::size_t, 0\x1b[01;31m\x1b[K>\x1b[m\x1b[K { };\n'}
+[0.143876] (my_cashier_system) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.143952] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1383:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[0.144028] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1385:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.144104] (my_cashier_system) StderrLine: {'line': b' 1385 |   template<typename _Tp, unsigned _Uint, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Size>\n'}
+[0.144181] (my_cashier_system) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.144257] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1386:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.144332] (my_cashier_system) StderrLine: {'line': b' 1386 |     struct extent<_Tp[\x1b[01;31m\x1b[K_Size\x1b[m\x1b[K], _Uint>\n'}
+[0.144418] (my_cashier_system) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.144501] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1386:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.144619] (my_cashier_system) StderrLine: {'line': b' 1386 |     struct extent<_Tp[_Size], _Uint\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.144700] (my_cashier_system) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.144780] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1387:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.144899] (my_cashier_system) StderrLine: {'line': b' 1387 |     : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K,\n'}
+[0.144975] (my_cashier_system) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.145051] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1388:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.145126] (my_cashier_system) StderrLine: {'line': b' 1388 |                                _Uint == 0 ? \x1b[01;31m\x1b[K_Size\x1b[m\x1b[K : extent<_Tp,\n'}
+[0.145206] (my_cashier_system) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.145281] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1389:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.145356] (my_cashier_system) StderrLine: {'line': b' 1389 |                                                            _Uint - 1>::value\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.145445] (my_cashier_system) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.145524] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1389:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[0.145601] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1394:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.145678] (my_cashier_system) StderrLine: {'line': b' 1394 |     : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K,\n'}
+[0.145754] (my_cashier_system) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.145831] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1396:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.145907] (my_cashier_system) StderrLine: {'line': b' 1396 |                                                        _Uint - 1>::value\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.145983] (my_cashier_system) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.146059] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1396:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[0.146136] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1759:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.146210] (my_cashier_system) StderrLine: {'line': b' 1759 |       { static constexpr \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K __size = sizeof(_Tp); };\n'}
+[0.146284] (my_cashier_system) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.146357] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[0.146445] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[0.146521] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[0.146595] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:60\x1b[m\x1b[K,\n'}
+[0.146670] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:8\x1b[m\x1b[K,\n'}
+[0.146746] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7\x1b[m\x1b[K,\n'}
+[0.146822] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2\x1b[m\x1b[K:\n'}
+[0.146901] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.146980] (my_cashier_system) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[0.147055] (my_cashier_system) StderrLine: {'line': b'    1 | // C++11 <type_traits> -*- C++ -*-\n'}
+[0.147207] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[0.147283] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[0.147360] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[0.147640] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:60\x1b[m\x1b[K,\n'}
+[0.147716] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:8\x1b[m\x1b[K,\n'}
+[0.147791] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7\x1b[m\x1b[K,\n'}
+[0.147865] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2\x1b[m\x1b[K:\n'}
+[0.147940] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1761:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.148015] (my_cashier_system) StderrLine: {'line': b' 1761 |     template<\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Sz, typename _Tp, bool = (_Sz <= _Tp::__size)>\n'}
+[0.148141] (my_cashier_system) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.148217] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1761:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Sz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.148292] (my_cashier_system) StderrLine: {'line': b' 1761 |     template<size_t _Sz, typename _Tp, bool = (\x1b[01;31m\x1b[K_Sz\x1b[m\x1b[K <= _Tp::__size)>\n'}
+[0.148376] (my_cashier_system) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.148458] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1762:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno default argument for \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.148541] (my_cashier_system) StderrLine: {'line': b' 1762 |       struct \x1b[01;31m\x1b[K__select\x1b[m\x1b[K;\n'}
+[0.148622] (my_cashier_system) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.148701] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1764:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.148834] (my_cashier_system) StderrLine: {'line': b' 1764 |     template<\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Sz, typename _Uint, typename... _UInts>\n'}
+[0.148909] (my_cashier_system) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.148984] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1765:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Sz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.149058] (my_cashier_system) StderrLine: {'line': b' 1765 |       struct __select<\x1b[01;31m\x1b[K_Sz\x1b[m\x1b[K, _List<_Uint, _UInts...>, true>\n'}
+[0.149132] (my_cashier_system) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.149206] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1765:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.149282] (my_cashier_system) StderrLine: {'line': b' 1765 |       struct __select<_Sz, _List<_Uint, _UInts...>, true\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.149358] (my_cashier_system) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.149498] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1768:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.149578] (my_cashier_system) StderrLine: {'line': b' 1768 |     template<\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Sz, typename _Uint, typename... _UInts>\n'}
+[0.149653] (my_cashier_system) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.149727] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1769:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Sz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.149801] (my_cashier_system) StderrLine: {'line': b' 1769 |       struct __select<\x1b[01;31m\x1b[K_Sz\x1b[m\x1b[K, _List<_Uint, _UInts...>, false>\n'}
+[0.149877] (my_cashier_system) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.149958] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1769:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.150037] (my_cashier_system) StderrLine: {'line': b' 1769 |       struct __select<_Sz, _List<_Uint, _UInts...>, false\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.150116] (my_cashier_system) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.150195] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1770:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Sz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.150274] (my_cashier_system) StderrLine: {'line': b' 1770 |       : __select<\x1b[01;31m\x1b[K_Sz\x1b[m\x1b[K, _List<_UInts...>>\n'}
+[0.150353] (my_cashier_system) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.150482] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1770:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.150567] (my_cashier_system) StderrLine: {'line': b' 1770 |       : __select<_Sz, _List<_UInts...\x1b[01;31m\x1b[K>>\x1b[m\x1b[K\n'}
+[0.150648] (my_cashier_system) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.150727] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1761:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__size\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::__make_unsigned_selector_base::_List<unsigned char, short unsigned int, unsigned int, long unsigned int, long long unsigned int>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.150809] (my_cashier_system) StderrLine: {'line': b' 1761 |     template<size_t _Sz, typename _Tp, bool = (_Sz <= _Tp::\x1b[01;31m\x1b[K__size\x1b[m\x1b[K)>\n'}
+[0.150887] (my_cashier_system) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.150966] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1783:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[0.151044] (my_cashier_system) StderrLine: {'line': b' 1783 |       using __unsigned_type = typename __select<sizeof(_Tp), _UInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::__type;\n'}
+[0.151123] (my_cashier_system) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.151201] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1787:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__unsigned_type\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.151281] (my_cashier_system) StderrLine: {'line': b' 1787 |         = typename __match_cv_qualifiers<_Tp, \x1b[01;31m\x1b[K__unsigned_type\x1b[m\x1b[K>::__type;\n'}
+[0.151360] (my_cashier_system) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.151544] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1787:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[0.151625] (my_cashier_system) StderrLine: {'line': b' 1787 |         = typename __match_cv_qualifiers<_Tp, __unsigned_type\x1b[01;31m\x1b[K>\x1b[m\x1b[K::__type;\n'}
+[0.151704] (my_cashier_system) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.151783] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1799:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<wchar_t, false, true>\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.151864] (my_cashier_system) StderrLine: {'line': b' 1799 |         = typename __make_unsigned_selector<wchar_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[0.152011] (my_cashier_system) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.152086] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1816:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<char16_t, false, true>\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.152161] (my_cashier_system) StderrLine: {'line': b' 1816 |         = typename __make_unsigned_selector<char16_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[0.152241] (my_cashier_system) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.152319] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1823:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<char32_t, false, true>\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.152437] (my_cashier_system) StderrLine: {'line': b' 1823 |         = typename __make_unsigned_selector<char32_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[0.152512] (my_cashier_system) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.152586] (my_cashier_system) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<wchar_t, true, false>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.152661] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1912:62:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_signed_selector<wchar_t, false, true>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.152737] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1927:57:\x1b[m\x1b[K   required from here\n'}
+[0.152812] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1744:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<wchar_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.152888] (my_cashier_system) StderrLine: {'line': b' 1744 |       using \x1b[01;31m\x1b[K__unsigned_type\x1b[m\x1b[K\n'}
+[0.152962] (my_cashier_system) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.153036] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1748:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<wchar_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.153111] (my_cashier_system) StderrLine: {'line': b' 1748 |       using \x1b[01;31m\x1b[K__type\x1b[m\x1b[K\n'}
+[0.153188] (my_cashier_system) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.153266] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1927:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid combination of multiple type-specifiers\n'}
+[0.153422] (my_cashier_system) StderrLine: {'line': b' 1927 |         = typename __make_signed_selector<wchar_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[0.153503] (my_cashier_system) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.153576] (my_cashier_system) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<char16_t, true, false>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.153648] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1912:62:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_signed_selector<char16_t, false, true>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.153721] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1944:58:\x1b[m\x1b[K   required from here\n'}
+[0.153792] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1744:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<char16_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.153866] (my_cashier_system) StderrLine: {'line': b' 1744 |       using \x1b[01;31m\x1b[K__unsigned_type\x1b[m\x1b[K\n'}
+[0.153937] (my_cashier_system) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.154015] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1748:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<char16_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.154088] (my_cashier_system) StderrLine: {'line': b' 1748 |       using \x1b[01;31m\x1b[K__type\x1b[m\x1b[K\n'}
+[0.154159] (my_cashier_system) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.154236] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1944:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid combination of multiple type-specifiers\n'}
+[0.154313] (my_cashier_system) StderrLine: {'line': b' 1944 |         = typename __make_signed_selector<char16_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[0.154432] (my_cashier_system) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.154511] (my_cashier_system) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<char32_t, true, false>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.154583] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1912:62:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_signed_selector<char32_t, false, true>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.154667] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1951:58:\x1b[m\x1b[K   required from here\n'}
+[0.154745] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1744:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<char32_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.154823] (my_cashier_system) StderrLine: {'line': b' 1744 |       using \x1b[01;31m\x1b[K__unsigned_type\x1b[m\x1b[K\n'}
+[0.154899] (my_cashier_system) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.155018] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1748:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<char32_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.155092] (my_cashier_system) StderrLine: {'line': b' 1748 |       using \x1b[01;31m\x1b[K__type\x1b[m\x1b[K\n'}
+[0.155168] (my_cashier_system) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.155244] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1951:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid combination of multiple type-specifiers\n'}
+[0.155320] (my_cashier_system) StderrLine: {'line': b' 1951 |         = typename __make_signed_selector<char32_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[0.155432] (my_cashier_system) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.155507] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1984:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.155579] (my_cashier_system) StderrLine: {'line': b' 1984 |   template<typename _Tp, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Size>\n'}
+[0.155656] (my_cashier_system) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.155732] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1985:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.155863] (my_cashier_system) StderrLine: {'line': b' 1985 |     struct remove_extent<_Tp[\x1b[01;31m\x1b[K_Size\x1b[m\x1b[K]>\n'}
+[0.155935] (my_cashier_system) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.156006] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1985:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.156080] (my_cashier_system) StderrLine: {'line': b' 1985 |     struct remove_extent<_Tp[_Size]\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.156155] (my_cashier_system) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.156230] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1997:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.156307] (my_cashier_system) StderrLine: {'line': b' 1997 |   template<typename _Tp, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Size>\n'}
+[0.156438] (my_cashier_system) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.156522] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1998:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.156595] (my_cashier_system) StderrLine: {'line': b' 1998 |     struct remove_all_extents<_Tp[\x1b[01;31m\x1b[K_Size\x1b[m\x1b[K]>\n'}
+[0.156666] (my_cashier_system) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.156738] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1998:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.156815] (my_cashier_system) StderrLine: {'line': b' 1998 |     struct remove_all_extents<_Tp[_Size]\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.156892] (my_cashier_system) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.156967] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2056:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.157042] (my_cashier_system) StderrLine: {'line': b' 2056 |   template<\x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Len>\n'}
+[0.157117] (my_cashier_system) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.157192] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2061:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.157268] (my_cashier_system) StderrLine: {'line': b' 2061 |         unsigned char __data[\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K];\n'}
+[0.157345] (my_cashier_system) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.157432] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2076:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.157511] (my_cashier_system) StderrLine: {'line': b' 2076 |   template<\x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Len, std::size_t _Align =\n'}
+[0.157587] (my_cashier_system) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.157663] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2076:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.157738] (my_cashier_system) StderrLine: {'line': b' 2076 |   template<std::size_t _Len, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Align =\n'}
+[0.157888] (my_cashier_system) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.157960] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2077:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.158036] (my_cashier_system) StderrLine: {'line': b' 2077 |            __alignof__(typename __aligned_storage_msa<\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K>::__type)>\n'}
+[0.158112] (my_cashier_system) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.158189] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2077:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.158265] (my_cashier_system) StderrLine: {'line': b' 2077 |            __alignof__(typename __aligned_storage_msa<_Len\x1b[01;31m\x1b[K>\x1b[m\x1b[K::__type)>\n'}
+[0.158341] (my_cashier_system) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.158483] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2082:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.158558] (my_cashier_system) StderrLine: {'line': b' 2082 |         unsigned char __data[\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K];\n'}
+[0.158629] (my_cashier_system) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.158700] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2083:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Align\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.158778] (my_cashier_system) StderrLine: {'line': b' 2083 |         struct __attribute__((__aligned__((\x1b[01;31m\x1b[K_Align\x1b[m\x1b[K)))) { } __align;\n'}
+[0.158849] (my_cashier_system) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.158920] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2090:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.158992] (my_cashier_system) StderrLine: {'line': b' 2090 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _S_alignment = 0;\n'}
+[0.159064] (my_cashier_system) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.159134] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2090:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.159213] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2091:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.159284] (my_cashier_system) StderrLine: {'line': b' 2091 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _S_size = 0;\n'}
+[0.159356] (my_cashier_system) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.159437] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2091:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.159516] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2097:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.159595] (my_cashier_system) StderrLine: {'line': b' 2097 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _S_alignment =\n'}
+[0.159736] (my_cashier_system) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.159812] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2097:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.159887] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2100:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.159965] (my_cashier_system) StderrLine: {'line': b' 2100 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _S_size =\n'}
+[0.160041] (my_cashier_system) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.160116] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2100:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.160205] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2115:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.160282] (my_cashier_system) StderrLine: {'line': b' 2115 |   template <\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Len, typename... _Types>\n'}
+[0.160358] (my_cashier_system) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.160665] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2122:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.160745] (my_cashier_system) StderrLine: {'line': b' 2122 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _S_len = _Len > __strictest::_S_size\n'}
+[0.160820] (my_cashier_system) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.160923] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.160999] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2126:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.161071] (my_cashier_system) StderrLine: {'line': b' 2126 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K alignment_value = __strictest::_S_alignment;\n'}
+[0.161143] (my_cashier_system) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.161214] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2126:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.161287] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2128:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_S_len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.161373] (my_cashier_system) StderrLine: {'line': b' 2128 |       typedef typename aligned_storage<\x1b[01;31m\x1b[K_S_len\x1b[m\x1b[K, alignment_value>::type type;\n'}
+[0.161481] (my_cashier_system) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.161552] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2128:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kalignment_value\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kalignment_of\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.161625] (my_cashier_system) StderrLine: {'line': b' 2128 |       typedef typename aligned_storage<_S_len, \x1b[01;31m\x1b[Kalignment_value\x1b[m\x1b[K>::type type;\n'}
+[0.161700] (my_cashier_system) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.161777] (my_cashier_system) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[Kalignment_of\x1b[m\x1b[K\n'}
+[0.161854] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2128:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.161958] (my_cashier_system) StderrLine: {'line': b' 2128 |       typedef typename aligned_storage<_S_len, alignment_value\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type type;\n'}
+[0.162029] (my_cashier_system) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.162105] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2128:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[0.162182] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2131:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.162259] (my_cashier_system) StderrLine: {'line': b' 2131 |   template <\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Len, typename... _Types>\n'}
+[0.162413] (my_cashier_system) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.162489] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2132:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.162562] (my_cashier_system) StderrLine: {'line': b' 2132 |     const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K aligned_union<_Len, _Types...>::alignment_value;\n'}
+[0.162632] (my_cashier_system) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.162703] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2132:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.162780] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2566:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.162851] (my_cashier_system) StderrLine: {'line': b' 2566 |   template<\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Len, size_t _Align =\n'}
+[0.162983] (my_cashier_system) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.163056] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2566:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.163131] (my_cashier_system) StderrLine: {'line': b' 2566 |   template<size_t _Len, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Align =\n'}
+[0.163201] (my_cashier_system) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.163272] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2567:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.163343] (my_cashier_system) StderrLine: {'line': b' 2567 |             __alignof__(typename __aligned_storage_msa<\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K>::__type)>\n'}
+[0.163424] (my_cashier_system) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.163496] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2567:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.163567] (my_cashier_system) StderrLine: {'line': b' 2567 |             __alignof__(typename __aligned_storage_msa<_Len\x1b[01;31m\x1b[K>\x1b[m\x1b[K::__type)>\n'}
+[0.163644] (my_cashier_system) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.163714] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2568:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.163785] (my_cashier_system) StderrLine: {'line': b' 2568 |     using aligned_storage_t = typename aligned_storage<\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K, _Align>::type;\n'}
+[0.163855] (my_cashier_system) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.163924] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2568:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Align\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.163996] (my_cashier_system) StderrLine: {'line': b' 2568 |     using aligned_storage_t = typename aligned_storage<_Len, \x1b[01;31m\x1b[K_Align\x1b[m\x1b[K>::type;\n'}
+[0.164067] (my_cashier_system) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.164137] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2568:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.164209] (my_cashier_system) StderrLine: {'line': b' 2568 |     using aligned_storage_t = typename aligned_storage<_Len, _Align\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type;\n'}
+[0.164279] (my_cashier_system) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.164350] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2568:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[0.164430] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2570:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.164503] (my_cashier_system) StderrLine: {'line': b' 2570 |   template <\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Len, typename... _Types>\n'}
+[0.164574] (my_cashier_system) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.164650] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2571:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.164726] (my_cashier_system) StderrLine: {'line': b' 2571 |     using aligned_union_t = typename aligned_union<\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K, _Types...>::type;\n'}
+[0.164850] (my_cashier_system) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.164921] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2571:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.164992] (my_cashier_system) StderrLine: {'line': b' 2571 |     using aligned_union_t = typename aligned_union<_Len, _Types...\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type;\n'}
+[0.165062] (my_cashier_system) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.165133] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2680:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.165208] (my_cashier_system) StderrLine: {'line': b' 2680 |   template<typename _Tp, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Nm>\n'}
+[0.165278] (my_cashier_system) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.165349] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.165433] (my_cashier_system) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K], _Tp (&__b)[_Nm])\n'}
+[0.165506] (my_cashier_system) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.165576] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, <declaration error> > std::__enable_if_t<std::__is_swappable<_Tp>::value> std::swap\x1b[m\x1b[K\xe2\x80\x99 conflicts with a previous declaration\n'}
+[0.165656] (my_cashier_system) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[_Nm\x1b[01;31m\x1b[K]\x1b[m\x1b[K, _Tp (&__b)[_Nm])\n'}
+[0.165728] (my_cashier_system) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.165798] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2676:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::swap(_Tp&, _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.165871] (my_cashier_system) StderrLine: {'line': b' 2676 |     \x1b[01;36m\x1b[Kswap\x1b[m\x1b[K(_Tp&, _Tp&)\n'}
+[0.165942] (my_cashier_system) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.166014] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__a\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.166084] (my_cashier_system) StderrLine: {'line': b' 2684 |     swap(_Tp (&\x1b[01;31m\x1b[K__a\x1b[m\x1b[K)[_Nm], _Tp (&__b)[_Nm])\n'}
+[0.166153] (my_cashier_system) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.166223] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.166294] (my_cashier_system) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K], _Tp (&__b)[_Nm])\n'}
+[0.166372] (my_cashier_system) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.166454] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__b\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.166576] (my_cashier_system) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[_Nm], _Tp (&\x1b[01;31m\x1b[K__b\x1b[m\x1b[K)[_Nm])\n'}
+[0.166647] (my_cashier_system) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.166719] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.166865] (my_cashier_system) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K])\n'}
+[0.166936] (my_cashier_system) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.167008] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knoexcept\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.167079] (my_cashier_system) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])\n'}
+[0.167150] (my_cashier_system) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.167221] (my_cashier_system) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[0.167302] (my_cashier_system) StderrLine: {'line': b' 2685 |     \x1b[32m\x1b[Knoexcept\x1b[m\x1b[K(__is_nothrow_swappable<_Tp>::value);\n'}
+[0.167382] (my_cashier_system) StderrLine: {'line': b'      |     \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K                               \n'}
+[0.167465] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3244:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.167542] (my_cashier_system) StderrLine: {'line': b' 3244 |   inline constexpr \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K alignment_of_v = alignment_of<_Tp>::value;\n'}
+[0.167618] (my_cashier_system) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.167693] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3244:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.167772] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3246:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.167849] (my_cashier_system) StderrLine: {'line': b' 3246 |   inline constexpr \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K rank_v = rank<_Tp>::value;\n'}
+[0.167925] (my_cashier_system) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.168001] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3246:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.168077] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3248:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.168153] (my_cashier_system) StderrLine: {'line': b' 3248 |   inline constexpr \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K extent_v = extent<_Tp, _Idx>::value;\n'}
+[0.168317] (my_cashier_system) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.168401] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3248:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.168480] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[0.168558] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[0.168630] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:60\x1b[m\x1b[K,\n'}
+[0.168702] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:8\x1b[m\x1b[K,\n'}
+[0.168778] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7\x1b[m\x1b[K,\n'}
+[0.168856] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2\x1b[m\x1b[K:\n'}
+[0.168928] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:212:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.168999] (my_cashier_system) StderrLine: {'line': b'  212 |   template<typename _Tp, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Nm>\n'}
+[0.169072] (my_cashier_system) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.169144] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.169217] (my_cashier_system) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K], _Tp (&__b)[_Nm])\n'}
+[0.169288] (my_cashier_system) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.169360] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, <declaration error> > typename std::enable_if<std::__is_swappable<_Tp>::value, void>::type std::swap\x1b[m\x1b[K\xe2\x80\x99 conflicts with a previous declaration\n'}
+[0.169450] (my_cashier_system) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[_Nm\x1b[01;31m\x1b[K]\x1b[m\x1b[K, _Tp (&__b)[_Nm])\n'}
+[0.169525] (my_cashier_system) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.169601] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:196:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::swap(_Tp&, _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.169684] (my_cashier_system) StderrLine: {'line': b'  196 |     \x1b[01;36m\x1b[Kswap\x1b[m\x1b[K(_Tp& __a, _Tp& __b)\n'}
+[0.169763] (my_cashier_system) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.169851] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__a\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.169932] (my_cashier_system) StderrLine: {'line': b'  220 |     swap(_Tp (&\x1b[01;31m\x1b[K__a\x1b[m\x1b[K)[_Nm], _Tp (&__b)[_Nm])\n'}
+[0.170048] (my_cashier_system) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.170120] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.170192] (my_cashier_system) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K], _Tp (&__b)[_Nm])\n'}
+[0.170262] (my_cashier_system) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.170333] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__b\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.170415] (my_cashier_system) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[_Nm], _Tp (&\x1b[01;31m\x1b[K__b\x1b[m\x1b[K)[_Nm])\n'}
+[0.170489] (my_cashier_system) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.170559] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.170629] (my_cashier_system) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K])\n'}
+[0.170700] (my_cashier_system) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.170771] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knoexcept\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.170842] (my_cashier_system) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])\n'}
+[0.170913] (my_cashier_system) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.170983] (my_cashier_system) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[0.171053] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[0.171123] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:60\x1b[m\x1b[K,\n'}
+[0.171192] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:8\x1b[m\x1b[K,\n'}
+[0.171263] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7\x1b[m\x1b[K,\n'}
+[0.171333] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2\x1b[m\x1b[K:\n'}
+[0.171411] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:92:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.171484] (my_cashier_system) StderrLine: {'line': b'   92 |   template<\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K...>\n'}
+[0.171554] (my_cashier_system) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.171623] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:449:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.171701] (my_cashier_system) StderrLine: {'line': b'  449 |       template<typename... _Args1, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K... _Indexes1,\n'}
+[0.171775] (my_cashier_system) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.171845] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:450:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.171916] (my_cashier_system) StderrLine: {'line': b'  450 |                typename... _Args2, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K... _Indexes2>\n'}
+[0.171985] (my_cashier_system) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.172054] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Indexes1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.172130] (my_cashier_system) StderrLine: {'line': b'  453 |              _Index_tuple<\x1b[01;31m\x1b[K_Indexes1\x1b[m\x1b[K...>, _Index_tuple<_Indexes2...>);\n'}
+[0.172201] (my_cashier_system) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.172272] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected parameter pack before \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.172343] (my_cashier_system) StderrLine: {'line': b'  453 |              _Index_tuple<_Indexes1\x1b[01;31m\x1b[K...\x1b[m\x1b[K>, _Index_tuple<_Indexes2...>);\n'}
+[0.172422] (my_cashier_system) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.172494] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.172564] (my_cashier_system) StderrLine: {'line': b'  453 |              _Index_tuple<_Indexes1...\x1b[01;31m\x1b[K>\x1b[m\x1b[K, _Index_tuple<_Indexes2...>);\n'}
+[0.172633] (my_cashier_system) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.172703] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Indexes2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.172774] (my_cashier_system) StderrLine: {'line': b'  453 |              _Index_tuple<_Indexes1...>, _Index_tuple<\x1b[01;31m\x1b[K_Indexes2\x1b[m\x1b[K...>);\n'}
+[0.172843] (my_cashier_system) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.172913] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected parameter pack before \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.172983] (my_cashier_system) StderrLine: {'line': b'  453 |              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2\x1b[01;31m\x1b[K...\x1b[m\x1b[K>);\n'}
+[0.173052] (my_cashier_system) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.173122] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.173193] (my_cashier_system) StderrLine: {'line': b'  453 |              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...\x1b[01;31m\x1b[K>\x1b[m\x1b[K);\n'}
+[0.173263] (my_cashier_system) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.173332] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[0.173415] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:60\x1b[m\x1b[K,\n'}
+[0.173488] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:8\x1b[m\x1b[K,\n'}
+[0.173558] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7\x1b[m\x1b[K,\n'}
+[0.173628] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2\x1b[m\x1b[K:\n'}
+[0.173699] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:53:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.173769] (my_cashier_system) StderrLine: {'line': b'   53 |       typedef \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K            size_type;\n'}
+[0.173839] (my_cashier_system) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.173909] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[0.173978] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:60\x1b[m\x1b[K,\n'}
+[0.174048] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:8\x1b[m\x1b[K,\n'}
+[0.174119] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7\x1b[m\x1b[K,\n'}
+[0.174189] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2\x1b[m\x1b[K:\n'}
+[0.174258] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.174334] (my_cashier_system) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[0.174412] (my_cashier_system) StderrLine: {'line': b'    1 | // std::initializer_list support -*- C++ -*-\n'}
+[0.174485] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[0.174554] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:60\x1b[m\x1b[K,\n'}
+[0.174624] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:8\x1b[m\x1b[K,\n'}
+[0.174698] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7\x1b[m\x1b[K,\n'}
+[0.174776] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:2\x1b[m\x1b[K:\n'}
+[0.174846] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:59:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.174921] (my_cashier_system) StderrLine: {'line': b'   59 |       \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K                 _M_len;\n'}
+[0.174994] (my_cashier_system) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.175064] (my_cashier_system) StderrLine: {'line': b'      |       \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[0.175133] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:62:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.175203] (my_cashier_system) StderrLine: {'line': b'   62 |       constexpr initializer_list(const_iterator __a, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K __l)\n'}
+[0.175272] (my_cashier_system) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.175342] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:70:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.175422] (my_cashier_system) StderrLine: {'line': b'   70 |       constexpr \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K\n'}
+[0.175494] (my_cashier_system) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.175565] (my_cashier_system) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[0.175635] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:47:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdefinition of \xe2\x80\x98\x1b[01m\x1b[Kclass std::initializer_list<_E>\x1b[m\x1b[K\xe2\x80\x99 does not match \xe2\x80\x98\x1b[01m\x1b[K#include <initializer_list>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.175707] (my_cashier_system) StderrLine: {'line': b'   47 |     class \x1b[01;31m\x1b[Kinitializer_list\x1b[m\x1b[K\n'}
+[0.175777] (my_cashier_system) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.175847] (my_cashier_system) StderrLine: {'line': b'compilation terminated.\n'}
+[0.175917] (my_cashier_system) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bill_subscriber_node.dir/build.make:76: CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o] Error 1\n'}
+[0.175987] (my_cashier_system) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/bill_subscriber_node.dir/all] Error 2\n'}
+[0.176058] (my_cashier_system) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.199719] (-) TimerEvent: {}
+[0.300129] (-) TimerEvent: {}
+[0.400543] (-) TimerEvent: {}
+[0.500969] (-) TimerEvent: {}
+[0.601408] (-) TimerEvent: {}
+[0.701829] (-) TimerEvent: {}
+[0.802258] (-) TimerEvent: {}
+[0.902695] (-) TimerEvent: {}
+[1.003025] (-) TimerEvent: {}
+[1.103453] (-) TimerEvent: {}
+[1.203892] (-) TimerEvent: {}
+[1.304324] (-) TimerEvent: {}
+[1.404789] (-) TimerEvent: {}
+[1.489636] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BillPublisherNode::publish_bill()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.489844] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:26:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.489942] (my_cashier_system) StderrLine: {'line': b'   26 |         message.\x1b[01;31m\x1b[Ktime\x1b[m\x1b[K = "2024-12-07T10:00:00";       // Placeholder timestamp\n'}
+[1.490026] (my_cashier_system) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.490302] (my_cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.490527] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.490614] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.490693] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.490769] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.490844] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.490916] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.490989] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.491061] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.491142] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.491218] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.491293] (my_cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.491374] (my_cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:35:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.491463] (my_cashier_system) StderrLine: {'line': b'   35 |             message.bill_number, message.\x1b[01;31m\x1b[Ktime\x1b[m\x1b[K.c_str(), message.quantity, message.price, message.total\n'}
+[1.491539] (my_cashier_system) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.505017] (-) TimerEvent: {}
+[1.605437] (-) TimerEvent: {}
+[1.705859] (-) TimerEvent: {}
+[1.806281] (-) TimerEvent: {}
+[1.906716] (-) TimerEvent: {}
+[2.007048] (-) TimerEvent: {}
+[2.016701] (my_cashier_system) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bill.dir/build.make:76: CMakeFiles/bill.dir/src/bill_publish_node.cpp.o] Error 1\n'}
+[2.016932] (my_cashier_system) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/bill.dir/all] Error 2\n'}
+[2.017082] (my_cashier_system) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.020133] (my_cashier_system) CommandEnded: {'returncode': 2}
+[2.027157] (my_cashier_system) JobEnded: {'identifier': 'my_cashier_system', 'rc': 2}
+[2.037707] (-) EventReactorShutdown: {}

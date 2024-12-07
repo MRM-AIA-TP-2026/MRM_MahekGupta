@@ -1,0 +1,4 @@
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid BillProcessorNode::process_bill(tutorial_interfaces::msg::Bill_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:33:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_price[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   33 |         double [01;35m[Kcurrent_price[m[K = this->get_parameter("price").as_double();
+      |                [01;35m[K^~~~~~~~~~~~~[m[K

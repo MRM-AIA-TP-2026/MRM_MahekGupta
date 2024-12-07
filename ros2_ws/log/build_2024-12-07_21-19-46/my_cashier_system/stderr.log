@@ -1,0 +1,10 @@
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:38:7:[m[K [01;31m[Kerror: [m[K‘[01m[KBillMonitorNode::BillMonitorNode[m[K’ has the same name as the class in which it is declared
+   38 | class [01;31m[KBillMonitorNode[m[K : public rclcpp::Node {
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In constructor ‘[01m[KBillMonitorNode::BillMonitorNode()[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:20:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_bill[m[K’ is not a member of ‘[01m[KBillMonitorNode[m[K’
+   20 |             std::bind(&BillMonitorNode::[01;31m[Kdisplay_bill[m[K, this, std::placeholders::_1)
+      |                                         [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

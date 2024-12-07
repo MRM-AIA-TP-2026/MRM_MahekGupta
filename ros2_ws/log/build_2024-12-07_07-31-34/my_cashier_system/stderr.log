@@ -1,0 +1,7 @@
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:[m[K In member function ‘[01m[Kvoid BillPublisherNode::publish_bill()[m[K’:
+[01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_publish_node.cpp:29:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Kto_string[m[K’
+   29 |         message.time = now.[01;31m[Kto_string[m[K(); // Convert time to string format
+      |                            [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bill.dir/build.make:76: CMakeFiles/bill.dir/src/bill_publish_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bill.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

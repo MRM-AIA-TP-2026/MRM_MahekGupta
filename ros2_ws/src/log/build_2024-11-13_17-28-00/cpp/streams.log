@@ -1,0 +1,20 @@
+[0.011s] Invoking command in '/home/mahek/ros2_ws/src/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/src/build/cpp -- -j12 -l12
+[0.046s] Invoked command in '/home/mahek/ros2_ws/src/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/src/build/cpp -- -j12 -l12
+[0.080s] Invoking command in '/home/mahek/ros2_ws/src/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahek/ros2_ws/src/build/cpp
+[0.085s] -- Install configuration: ""
+[0.085s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/ament_index/resource_index/package_run_dependencies/cpp
+[0.085s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/ament_index/resource_index/parent_prefix_path/cpp
+[0.085s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/ament_prefix_path.sh
+[0.085s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/ament_prefix_path.dsv
+[0.085s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/path.sh
+[0.085s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/environment/path.dsv
+[0.085s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.bash
+[0.085s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.sh
+[0.086s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.zsh
+[0.086s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/local_setup.dsv
+[0.086s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/package.dsv
+[0.086s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/ament_index/resource_index/packages/cpp
+[0.086s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/cmake/cppConfig.cmake
+[0.086s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/cmake/cppConfig-version.cmake
+[0.086s] -- Up-to-date: /home/mahek/ros2_ws/src/install/cpp/share/cpp/package.xml
+[0.087s] Invoked command in '/home/mahek/ros2_ws/src/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahek/ros2_ws/src/build/cpp
