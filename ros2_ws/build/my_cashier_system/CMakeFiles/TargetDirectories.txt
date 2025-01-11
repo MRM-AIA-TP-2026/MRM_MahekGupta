@@ -1,8 +1,8 @@
 /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/uninstall.dir
 /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/my_cashier_system_uninstall.dir
-/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/bill_publisher_node.dir
-/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/bill_subscriber_node.dir
-/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/bill_display_node.dir
+/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/bill_publisher.dir
+/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/manager_node.dir
+/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/monitor_node.dir
 /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/test.dir
 /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/edit_cache.dir
 /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles/rebuild_cache.dir

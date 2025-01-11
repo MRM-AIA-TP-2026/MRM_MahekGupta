@@ -1,0 +1,5 @@
+[0.008s] Invoking command in '/home/mahek/rover_ws/build/my_rover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/rover_ws/build/my_rover -- -j12 -l12
+[0.036s] [0mCMake Error: The source directory "/home/mahek/rover_ws/src/my_rover" does not exist.
+[0.036s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.037s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.040s] Invoked command in '/home/mahek/rover_ws/build/my_rover' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/rover_ws/build/my_rover -- -j12 -l12

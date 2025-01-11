@@ -63,9 +63,9 @@ CMAKE_BINARY_DIR = /home/mahek/ros2_ws/build/my_cashier_system
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/bill_publisher_node.dir/all
-all: CMakeFiles/bill_subscriber_node.dir/all
-all: CMakeFiles/bill_display_node.dir/all
+all: CMakeFiles/bill_publisher.dir/all
+all: CMakeFiles/manager_node.dir/all
+all: CMakeFiles/monitor_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,9 +75,9 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/my_cashier_system_uninstall.dir/clean
-clean: CMakeFiles/bill_publisher_node.dir/clean
-clean: CMakeFiles/bill_subscriber_node.dir/clean
-clean: CMakeFiles/bill_display_node.dir/clean
+clean: CMakeFiles/bill_publisher.dir/clean
+clean: CMakeFiles/manager_node.dir/clean
+clean: CMakeFiles/monitor_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -133,82 +133,82 @@ CMakeFiles/my_cashier_system_uninstall.dir/clean:
 .PHONY : CMakeFiles/my_cashier_system_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/bill_publisher_node.dir
+# Target rules for target CMakeFiles/bill_publisher.dir
 
 # All Build rule for target.
-CMakeFiles/bill_publisher_node.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher_node.dir/build.make CMakeFiles/bill_publisher_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher_node.dir/build.make CMakeFiles/bill_publisher_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles --progress-num=3,4 "Built target bill_publisher_node"
-.PHONY : CMakeFiles/bill_publisher_node.dir/all
+CMakeFiles/bill_publisher.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher.dir/build.make CMakeFiles/bill_publisher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher.dir/build.make CMakeFiles/bill_publisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles --progress-num=1,2 "Built target bill_publisher"
+.PHONY : CMakeFiles/bill_publisher.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/bill_publisher_node.dir/rule: cmake_check_build_system
+CMakeFiles/bill_publisher.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bill_publisher_node.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bill_publisher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles 0
-.PHONY : CMakeFiles/bill_publisher_node.dir/rule
+.PHONY : CMakeFiles/bill_publisher.dir/rule
 
 # Convenience name for target.
-bill_publisher_node: CMakeFiles/bill_publisher_node.dir/rule
-.PHONY : bill_publisher_node
+bill_publisher: CMakeFiles/bill_publisher.dir/rule
+.PHONY : bill_publisher
 
 # clean rule for target.
-CMakeFiles/bill_publisher_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher_node.dir/build.make CMakeFiles/bill_publisher_node.dir/clean
-.PHONY : CMakeFiles/bill_publisher_node.dir/clean
+CMakeFiles/bill_publisher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher.dir/build.make CMakeFiles/bill_publisher.dir/clean
+.PHONY : CMakeFiles/bill_publisher.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/bill_subscriber_node.dir
+# Target rules for target CMakeFiles/manager_node.dir
 
 # All Build rule for target.
-CMakeFiles/bill_subscriber_node.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_subscriber_node.dir/build.make CMakeFiles/bill_subscriber_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_subscriber_node.dir/build.make CMakeFiles/bill_subscriber_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles --progress-num=5,6 "Built target bill_subscriber_node"
-.PHONY : CMakeFiles/bill_subscriber_node.dir/all
+CMakeFiles/manager_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_node.dir/build.make CMakeFiles/manager_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_node.dir/build.make CMakeFiles/manager_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles --progress-num=3,4 "Built target manager_node"
+.PHONY : CMakeFiles/manager_node.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/bill_subscriber_node.dir/rule: cmake_check_build_system
+CMakeFiles/manager_node.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bill_subscriber_node.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/manager_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles 0
-.PHONY : CMakeFiles/bill_subscriber_node.dir/rule
+.PHONY : CMakeFiles/manager_node.dir/rule
 
 # Convenience name for target.
-bill_subscriber_node: CMakeFiles/bill_subscriber_node.dir/rule
-.PHONY : bill_subscriber_node
+manager_node: CMakeFiles/manager_node.dir/rule
+.PHONY : manager_node
 
 # clean rule for target.
-CMakeFiles/bill_subscriber_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_subscriber_node.dir/build.make CMakeFiles/bill_subscriber_node.dir/clean
-.PHONY : CMakeFiles/bill_subscriber_node.dir/clean
+CMakeFiles/manager_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_node.dir/build.make CMakeFiles/manager_node.dir/clean
+.PHONY : CMakeFiles/manager_node.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/bill_display_node.dir
+# Target rules for target CMakeFiles/monitor_node.dir
 
 # All Build rule for target.
-CMakeFiles/bill_display_node.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_display_node.dir/build.make CMakeFiles/bill_display_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_display_node.dir/build.make CMakeFiles/bill_display_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles --progress-num=1,2 "Built target bill_display_node"
-.PHONY : CMakeFiles/bill_display_node.dir/all
+CMakeFiles/monitor_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor_node.dir/build.make CMakeFiles/monitor_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor_node.dir/build.make CMakeFiles/monitor_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles --progress-num=5,6 "Built target monitor_node"
+.PHONY : CMakeFiles/monitor_node.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/bill_display_node.dir/rule: cmake_check_build_system
+CMakeFiles/monitor_node.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bill_display_node.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/monitor_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahek/ros2_ws/build/my_cashier_system/CMakeFiles 0
-.PHONY : CMakeFiles/bill_display_node.dir/rule
+.PHONY : CMakeFiles/monitor_node.dir/rule
 
 # Convenience name for target.
-bill_display_node: CMakeFiles/bill_display_node.dir/rule
-.PHONY : bill_display_node
+monitor_node: CMakeFiles/monitor_node.dir/rule
+.PHONY : monitor_node
 
 # clean rule for target.
-CMakeFiles/bill_display_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_display_node.dir/build.make CMakeFiles/bill_display_node.dir/clean
-.PHONY : CMakeFiles/bill_display_node.dir/clean
+CMakeFiles/monitor_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor_node.dir/build.make CMakeFiles/monitor_node.dir/clean
+.PHONY : CMakeFiles/monitor_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

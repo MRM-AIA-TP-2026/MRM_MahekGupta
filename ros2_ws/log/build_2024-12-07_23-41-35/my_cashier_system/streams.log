@@ -1,0 +1,15 @@
+[0.008s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target bill_subscriber_node[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target bill_publisher_node[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target bill_display_node[0m
+[0.075s] [ 33%] Built target bill_subscriber_node
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o[0m
+[0.081s] [ 83%] Built target bill_publisher_node
+[1.573s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In member function ‘[01m[Kvoid BillMonitorNode::display_bill(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.574s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:49:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_future<std::vector<rclcpp::Parameter> >[m[K’ has no member named ‘[01m[Kthen[m[K’
+[1.574s]    49 |         param_client_->get_parameters({"inventory", "total_income"}).[01;31m[Kthen[m[K(
+[1.574s]       |                                                                      [01;31m[K^~~~[m[K
+[3.637s] gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+[3.637s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+[3.637s] gmake: *** [Makefile:146: all] Error 2
+[3.640s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

@@ -198,50 +198,50 @@ my_cashier_system_uninstall/fast:
 .PHONY : my_cashier_system_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named bill_publisher_node
+# Target rules for targets named bill_publisher
 
 # Build rule for target.
-bill_publisher_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bill_publisher_node
-.PHONY : bill_publisher_node
+bill_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bill_publisher
+.PHONY : bill_publisher
 
 # fast build rule for target.
-bill_publisher_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher_node.dir/build.make CMakeFiles/bill_publisher_node.dir/build
-.PHONY : bill_publisher_node/fast
+bill_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher.dir/build.make CMakeFiles/bill_publisher.dir/build
+.PHONY : bill_publisher/fast
 
 #=============================================================================
-# Target rules for targets named bill_subscriber_node
+# Target rules for targets named manager_node
 
 # Build rule for target.
-bill_subscriber_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bill_subscriber_node
-.PHONY : bill_subscriber_node
+manager_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 manager_node
+.PHONY : manager_node
 
 # fast build rule for target.
-bill_subscriber_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_subscriber_node.dir/build.make CMakeFiles/bill_subscriber_node.dir/build
-.PHONY : bill_subscriber_node/fast
+manager_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_node.dir/build.make CMakeFiles/manager_node.dir/build
+.PHONY : manager_node/fast
 
 #=============================================================================
-# Target rules for targets named bill_display_node
+# Target rules for targets named monitor_node
 
 # Build rule for target.
-bill_display_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bill_display_node
-.PHONY : bill_display_node
+monitor_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_node
+.PHONY : monitor_node
 
 # fast build rule for target.
-bill_display_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_display_node.dir/build.make CMakeFiles/bill_display_node.dir/build
-.PHONY : bill_display_node/fast
+monitor_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor_node.dir/build.make CMakeFiles/monitor_node.dir/build
+.PHONY : monitor_node/fast
 
 src/bill_display_node.o: src/bill_display_node.cpp.o
 .PHONY : src/bill_display_node.o
 
 # target to build an object file
 src/bill_display_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_display_node.dir/build.make CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor_node.dir/build.make CMakeFiles/monitor_node.dir/src/bill_display_node.cpp.o
 .PHONY : src/bill_display_node.cpp.o
 
 src/bill_display_node.i: src/bill_display_node.cpp.i
@@ -249,7 +249,7 @@ src/bill_display_node.i: src/bill_display_node.cpp.i
 
 # target to preprocess a source file
 src/bill_display_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_display_node.dir/build.make CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor_node.dir/build.make CMakeFiles/monitor_node.dir/src/bill_display_node.cpp.i
 .PHONY : src/bill_display_node.cpp.i
 
 src/bill_display_node.s: src/bill_display_node.cpp.s
@@ -257,7 +257,7 @@ src/bill_display_node.s: src/bill_display_node.cpp.s
 
 # target to generate assembly for a file
 src/bill_display_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_display_node.dir/build.make CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor_node.dir/build.make CMakeFiles/monitor_node.dir/src/bill_display_node.cpp.s
 .PHONY : src/bill_display_node.cpp.s
 
 src/bill_publish_node.o: src/bill_publish_node.cpp.o
@@ -265,7 +265,7 @@ src/bill_publish_node.o: src/bill_publish_node.cpp.o
 
 # target to build an object file
 src/bill_publish_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher_node.dir/build.make CMakeFiles/bill_publisher_node.dir/src/bill_publish_node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher.dir/build.make CMakeFiles/bill_publisher.dir/src/bill_publish_node.cpp.o
 .PHONY : src/bill_publish_node.cpp.o
 
 src/bill_publish_node.i: src/bill_publish_node.cpp.i
@@ -273,7 +273,7 @@ src/bill_publish_node.i: src/bill_publish_node.cpp.i
 
 # target to preprocess a source file
 src/bill_publish_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher_node.dir/build.make CMakeFiles/bill_publisher_node.dir/src/bill_publish_node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher.dir/build.make CMakeFiles/bill_publisher.dir/src/bill_publish_node.cpp.i
 .PHONY : src/bill_publish_node.cpp.i
 
 src/bill_publish_node.s: src/bill_publish_node.cpp.s
@@ -281,7 +281,7 @@ src/bill_publish_node.s: src/bill_publish_node.cpp.s
 
 # target to generate assembly for a file
 src/bill_publish_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher_node.dir/build.make CMakeFiles/bill_publisher_node.dir/src/bill_publish_node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_publisher.dir/build.make CMakeFiles/bill_publisher.dir/src/bill_publish_node.cpp.s
 .PHONY : src/bill_publish_node.cpp.s
 
 src/bill_subscriber_node.o: src/bill_subscriber_node.cpp.o
@@ -289,7 +289,7 @@ src/bill_subscriber_node.o: src/bill_subscriber_node.cpp.o
 
 # target to build an object file
 src/bill_subscriber_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_subscriber_node.dir/build.make CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_node.dir/build.make CMakeFiles/manager_node.dir/src/bill_subscriber_node.cpp.o
 .PHONY : src/bill_subscriber_node.cpp.o
 
 src/bill_subscriber_node.i: src/bill_subscriber_node.cpp.i
@@ -297,7 +297,7 @@ src/bill_subscriber_node.i: src/bill_subscriber_node.cpp.i
 
 # target to preprocess a source file
 src/bill_subscriber_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_subscriber_node.dir/build.make CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_node.dir/build.make CMakeFiles/manager_node.dir/src/bill_subscriber_node.cpp.i
 .PHONY : src/bill_subscriber_node.cpp.i
 
 src/bill_subscriber_node.s: src/bill_subscriber_node.cpp.s
@@ -305,7 +305,7 @@ src/bill_subscriber_node.s: src/bill_subscriber_node.cpp.s
 
 # target to generate assembly for a file
 src/bill_subscriber_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bill_subscriber_node.dir/build.make CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_node.dir/build.make CMakeFiles/manager_node.dir/src/bill_subscriber_node.cpp.s
 .PHONY : src/bill_subscriber_node.cpp.s
 
 # Help Target
@@ -323,9 +323,9 @@ help:
 	@echo "... test"
 	@echo "... my_cashier_system_uninstall"
 	@echo "... uninstall"
-	@echo "... bill_display_node"
-	@echo "... bill_publisher_node"
-	@echo "... bill_subscriber_node"
+	@echo "... bill_publisher"
+	@echo "... manager_node"
+	@echo "... monitor_node"
 	@echo "... src/bill_display_node.o"
 	@echo "... src/bill_display_node.i"
 	@echo "... src/bill_display_node.s"

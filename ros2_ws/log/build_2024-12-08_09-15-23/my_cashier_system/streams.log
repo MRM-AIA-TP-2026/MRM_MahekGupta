@@ -1,0 +1,63 @@
+[0.010s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target bill_display_node[0m
+[0.081s] [ 16%] [32mBuilding CXX object CMakeFiles/bill_publisher_node.dir/src/bill_publish_node.cpp.o[0m
+[0.082s] [ 33%] [32mBuilding CXX object CMakeFiles/bill_subscriber_node.dir/src/bill_subscriber_node.cpp.o[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o[0m
+[2.301s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In member function ‘[01m[Kvoid BillMonitorNode::display_bill(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.301s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:49:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::SyncParametersClient::get_parameter(const char [10])[m[K’
+[2.301s]    49 |             double inventory = [01;31m[Kparam_client_->get_parameter("inventory")[m[K.get_value<double>();
+[2.301s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.302s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[2.302s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1[m[K:
+[2.302s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:417:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T rclcpp::SyncParametersClient::get_parameter(const string&, const T&)[m[K’
+[2.302s]   417 |   [01;36m[Kget_parameter[m[K(const std::string & parameter_name, const T & default_value)
+[2.303s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[2.303s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:417:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.303s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:49:60:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.303s]    49 |             double inventory = [01;36m[Kparam_client_->get_parameter("inventory")[m[K.get_value<double>();
+[2.303s]       |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.303s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[2.303s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1[m[K:
+[2.303s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:426:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T rclcpp::SyncParametersClient::get_parameter(const string&)[m[K’
+[2.303s]   426 |   [01;36m[Kget_parameter[m[K(const std::string & parameter_name)
+[2.303s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[2.304s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:426:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.304s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:49:60:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT[m[K’
+[2.304s]    49 |             double inventory = [01;36m[Kparam_client_->get_parameter("inventory")[m[K.get_value<double>();
+[2.304s]       |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.304s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:49:84:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[2.304s]    49 |             double inventory = param_client_->get_parameter("inventory").get_value<[01;31m[Kdouble[m[K>();
+[2.304s]       |                                                                                    [01;31m[K^~~~~~[m[K
+[2.304s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:50:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::SyncParametersClient::get_parameter(const char [13])[m[K’
+[2.304s]    50 |             double income = [01;31m[Kparam_client_->get_parameter("total_income")[m[K.get_value<double>();
+[2.305s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[2.305s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[2.305s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1[m[K:
+[2.305s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:417:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T rclcpp::SyncParametersClient::get_parameter(const string&, const T&)[m[K’
+[2.305s]   417 |   [01;36m[Kget_parameter[m[K(const std::string & parameter_name, const T & default_value)
+[2.305s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[2.305s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:417:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.305s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:50:57:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.305s]    50 |             double income = [01;36m[Kparam_client_->get_parameter("total_income")[m[K.get_value<double>();
+[2.305s]       |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[2.306s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+[2.306s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1[m[K:
+[2.306s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:426:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T rclcpp::SyncParametersClient::get_parameter(const string&)[m[K’
+[2.306s]   426 |   [01;36m[Kget_parameter[m[K(const std::string & parameter_name)
+[2.306s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[2.306s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:426:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.306s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:50:57:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT[m[K’
+[2.306s]    50 |             double income = [01;36m[Kparam_client_->get_parameter("total_income")[m[K.get_value<double>();
+[2.306s]       |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[2.306s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:50:84:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[2.306s]    50 |             double income = param_client_->get_parameter("total_income").get_value<[01;31m[Kdouble[m[K>();
+[2.307s]       |                                                                                    [01;31m[K^~~~~~[m[K
+[4.596s] gmake[2]: *** [CMakeFiles/bill_display_node.dir/build.make:76: CMakeFiles/bill_display_node.dir/src/bill_display_node.cpp.o] Error 1
+[4.596s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/bill_display_node.dir/all] Error 2
+[4.596s] gmake[1]: *** Waiting for unfinished jobs....
+[4.603s] [ 66%] [32m[1mLinking CXX executable bill_publisher_node[0m
+[4.757s] [ 66%] Built target bill_publisher_node
+[6.397s] [ 83%] [32m[1mLinking CXX executable bill_subscriber_node[0m
+[6.687s] [ 83%] Built target bill_subscriber_node
+[6.689s] gmake: *** [Makefile:146: all] Error 2
+[6.690s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '2': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12

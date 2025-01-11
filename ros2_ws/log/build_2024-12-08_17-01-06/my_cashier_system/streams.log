@@ -1,0 +1,110 @@
+[0.008s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[0.033s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.149s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.150s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.154s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.190s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.260s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.293s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.298s] -- Found tutorial_interfaces: 0.0.0 (/home/mahek/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.307s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.355s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.355s] -- Configured cppcheck include dirs: /home/mahek/ros2_ws/src/my_cashier_system/include
+[0.355s] -- Configured cppcheck exclude dirs and/or files: 
+[0.356s] -- Added test 'lint_cmake' to check CMake code style
+[0.356s] -- Added test 'uncrustify' to check C / C++ code style
+[0.356s] -- Configured uncrustify additional arguments: 
+[0.357s] -- Added test 'xmllint' to check XML markup files
+[0.357s] -- Configuring done
+[0.366s] -- Generating done
+[0.370s] -- Build files have been written to: /home/mahek/ros2_ws/build/my_cashier_system
+[0.401s] [ 16%] [32mBuilding CXX object CMakeFiles/monitor_node.dir/src/bill_display_node.cpp.o[0m
+[0.404s] [ 33%] [32mBuilding CXX object CMakeFiles/bill_publisher.dir/src/bill_publish_node.cpp.o[0m
+[0.404s] [ 50%] [32mBuilding CXX object CMakeFiles/manager_node.dir/src/bill_subscriber_node.cpp.o[0m
+[1.954s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.955s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.955s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.955s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:1[m[K:
+[1.955s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:[m[K In member function ‘[01m[Kvoid MonitorNode::print_status()[m[K’:
+[1.955s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:50:29:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.955s]    50 |                             [01;35m[K"Last Bill - Number: %d, Quantity: %d, Total: %.2f"[m[K,
+[1.955s]       |                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.955s]    51 |                             last_bill_.bill_number, [32m[Klast_bill_.quantity[m[K, last_bill_.total);
+[1.955s]       |                                                     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[1.955s]       |                                                                [32m[K|[m[K
+[1.956s]       |                                                                [32m[Kdouble[m[K
+[1.956s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_display_node.cpp:50:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.956s]    50 |                             "Last Bill - Number: %d, Quantity: [01;36m[K%d[m[K, Total: %.2f",
+[1.956s]       |                                                                [01;36m[K~^[m[K
+[1.956s]       |                                                                 [01;36m[K|[m[K
+[1.956s]       |                                                                 [01;36m[Kint[m[K
+[1.956s]       |                                                                [32m[K%f[m[K
+[1.991s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.992s]                  from [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:1[m[K:
+[1.992s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid ManagerNode::bill_callback(tutorial_interfaces::msg::Bill_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.992s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:49:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.992s]    49 |                     [01;35m[K"Processed Bill: Quantity: %.2f, Total: %.2f\nUpdated Inventory: %d -> %d\nUpdated Income: %.2f -> %.2f"[m[K,
+[1.992s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.992s]    50 |                     msg->quantity, msg->total, [32m[Kinventory + msg->quantity[m[K, inventory, income - msg->total, income);
+[1.992s]       |                                                [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.992s]       |                                                          [32m[K|[m[K
+[1.992s]       |                                                          [32m[Kdouble[m[K
+[1.993s] [01m[K/home/mahek/ros2_ws/src/my_cashier_system/src/bill_subscriber_node.cpp:49:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.993s]    49 |                     "Processed Bill: Quantity: %.2f, Total: %.2f\nUpdated Inventory: [01;36m[K%d[m[K -> %d\nUpdated Income: %.2f -> %.2f",
+[1.993s]       |                                                                                      [01;36m[K~^[m[K
+[1.993s]       |                                                                                       [01;36m[K|[m[K
+[1.993s]       |                                                                                       [01;36m[Kint[m[K
+[1.993s]       |                                                                                      [32m[K%f[m[K
+[5.117s] [ 66%] [32m[1mLinking CXX executable bill_publisher[0m
+[5.335s] [ 66%] Built target bill_publisher
+[5.949s] [ 83%] [32m[1mLinking CXX executable monitor_node[0m
+[6.215s] [ 83%] Built target monitor_node
+[6.657s] [100%] [32m[1mLinking CXX executable manager_node[0m
+[6.960s] [100%] Built target manager_node
+[6.973s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '0': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/ros2_ws/build/my_cashier_system -- -j12 -l12
+[6.975s] Invoking command in '/home/mahek/ros2_ws/build/my_cashier_system': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/ros2_ws/build/my_cashier_system
+[6.984s] -- Install configuration: ""
+[6.984s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_publisher
+[6.985s] -- Set runtime path of "/home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/bill_publisher" to ""
+[6.985s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/manager_node
+[6.988s] -- Set runtime path of "/home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/manager_node" to ""
+[6.988s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/monitor_node
+[6.990s] -- Set runtime path of "/home/mahek/ros2_ws/install/my_cashier_system/lib/my_cashier_system/monitor_node" to ""
+[6.990s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/package_run_dependencies/my_cashier_system
+[6.991s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/parent_prefix_path/my_cashier_system
+[6.991s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/ament_prefix_path.sh
+[6.991s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/ament_prefix_path.dsv
+[6.991s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/path.sh
+[6.991s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/environment/path.dsv
+[6.991s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.bash
+[6.991s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.sh
+[6.991s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.zsh
+[6.992s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/local_setup.dsv
+[6.992s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/package.dsv
+[6.992s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/ament_index/resource_index/packages/my_cashier_system
+[6.993s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/cmake/my_cashier_systemConfig.cmake
+[6.993s] -- Up-to-date: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/cmake/my_cashier_systemConfig-version.cmake
+[6.994s] -- Installing: /home/mahek/ros2_ws/install/my_cashier_system/share/my_cashier_system/package.xml
+[6.994s] Invoked command in '/home/mahek/ros2_ws/build/my_cashier_system' returned '0': CMAKE_PREFIX_PATH=/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/ros2_ws/build/my_cashier_system

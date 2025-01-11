@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4590a4c237420d229fb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_cashier_system",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bill_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bill_publisher-749503f0f22c203d11ff.json",
+					"name" : "bill_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manager_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manager_node-134809f4d30c1b4b3761.json",
+					"name" : "manager_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "monitor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-monitor_node-d0f6f09eed9a9a0a5f50.json",
+					"name" : "monitor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_cashier_system_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_cashier_system_uninstall-95571e207ab053d7d761.json",
+					"name" : "my_cashier_system_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4c2aa3bd56b1cdd94aff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mahek/ros2_ws/build/my_cashier_system",
+		"source" : "/home/mahek/ros2_ws/src/my_cashier_system"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

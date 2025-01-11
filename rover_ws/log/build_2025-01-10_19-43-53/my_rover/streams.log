@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/mahek/rover_ws/build/my_rover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/rover_ws/build/my_rover -- -j12 -l12
+[0.049s] Invoked command in '/home/mahek/rover_ws/build/my_rover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/rover_ws/build/my_rover -- -j12 -l12
+[0.061s] Invoking command in '/home/mahek/rover_ws/build/my_rover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/rover_ws/build/my_rover
+[0.070s] -- Install configuration: ""
+[0.071s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/ament_index/resource_index/package_run_dependencies/my_rover
+[0.071s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/ament_index/resource_index/parent_prefix_path/my_rover
+[0.071s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/environment/ament_prefix_path.sh
+[0.071s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/environment/ament_prefix_path.dsv
+[0.071s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/environment/path.sh
+[0.071s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/environment/path.dsv
+[0.071s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/local_setup.bash
+[0.072s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/local_setup.sh
+[0.072s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/local_setup.zsh
+[0.072s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/local_setup.dsv
+[0.072s] -- Installing: /home/mahek/rover_ws/install/my_rover/share/my_rover/package.dsv
+[0.072s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/ament_index/resource_index/packages/my_rover
+[0.072s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/cmake/my_roverConfig.cmake
+[0.072s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/cmake/my_roverConfig-version.cmake
+[0.072s] -- Up-to-date: /home/mahek/rover_ws/install/my_rover/share/my_rover/package.xml
+[0.074s] Invoked command in '/home/mahek/rover_ws/build/my_rover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/rover_ws/build/my_rover
