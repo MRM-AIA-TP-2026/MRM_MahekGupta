@@ -6,6 +6,7 @@
 <xacro:include filename="stereo.xacro"/>
 <xacro:include filename="gps.xacro"/>
 <xacro:include filename="imu.xacro"/>
+<xacro:include filename="cam.xacro"/>
 
 <xacro:property name="wheel_radius" value="0.1"/>
 <xacro:property name="wheel_length" value="0.05"/>

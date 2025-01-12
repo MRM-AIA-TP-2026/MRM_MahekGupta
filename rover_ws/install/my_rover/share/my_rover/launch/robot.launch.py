@@ -27,7 +27,8 @@ def generate_launch_description():
         package="tf2_ros",
         executable="static_transform_publisher",
         name="static_odom_tf_broadcaster",
-        arguments=["0", "0", "0", "0", "0", "0", "map", "odom"]
+        arguments=["0", "0", "0", "0", "0", "0", "map", "odom"],
+        parameters=[{'use_sim_time': True}],
     )
     
     return LaunchDescription([

@@ -7,6 +7,7 @@
 /home/mahek/rover_ws/install/my_rover/share/my_rover//urdf/imu.xacro
 /home/mahek/rover_ws/install/my_rover/share/my_rover//urdf/stereo.xacro
 /home/mahek/rover_ws/install/my_rover/share/my_rover//urdf/material.xacro
+/home/mahek/rover_ws/install/my_rover/share/my_rover//urdf/cam.xacro
 /home/mahek/rover_ws/install/my_rover/share/my_rover//urdf/inertial.xacro
 /home/mahek/rover_ws/install/my_rover/share/my_rover//rviz/config.rviz
 /home/mahek/rover_ws/install/my_rover/share/ament_index/resource_index/package_run_dependencies/my_rover

@@ -11,15 +11,14 @@ def generate_launch_description():
     robot_state_publisher_node = launch_ros.actions.Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
-         output='screen',
-        parameters=[{'robot_description': Command(['xacro ', LaunchConfiguration('model')])}]
-        
+        parameters=[{'use_sim_time': True, 'robot_description': Command(['xacro ', LaunchConfiguration('model')])}]
     )
 
     joint_state_publisher_gui_node = launch_ros.actions.Node(
         package='joint_state_publisher_gui',
         executable='joint_state_publisher_gui',
         name='joint_state_publisher_gui',
+        parameters=[{'use_sim_time': True}],
     )
 
     rviz_node = launch_ros.actions.Node(
@@ -27,7 +26,8 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz2',
         output='screen',
-        arguments=['-d', LaunchConfiguration('rvizconfig')]
+        arguments=['-d', LaunchConfiguration('rvizconfig')],
+        parameters=[{'use_sim_time': True}],
     )
 
     return launch.LaunchDescription([

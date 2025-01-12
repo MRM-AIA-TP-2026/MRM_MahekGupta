@@ -12,14 +12,15 @@ def generate_launch_description():
     robot_state_publisher_node = launch_ros.actions.Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
-        parameters=[{'robot_description': Command(['xacro ', LaunchConfiguration('model')])}]
+        parameters=[{'use_sim_time': True, 'robot_description': Command(['xacro ', LaunchConfiguration('model')])}]
     )
 
     # Joint State Publisher Node
     joint_state_publisher_node = launch_ros.actions.Node(
         package='joint_state_publisher',
         executable='joint_state_publisher',
-        name='joint_state_publisher'
+        name='joint_state_publisher',
+        parameters=[{'use_sim_time': True}],
     )
 
     # Spawn Entity Node
