@@ -33,6 +33,14 @@
     <material name = "yellow">
         <color rgba = "0.7 0.9 0 1" />
     </material>
+    <!-- Define base_footprint -->
+    <link name="base_footprint">
+        <inertial>
+            <mass value="0.0"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
+    </link>
     
 
 
@@ -56,6 +64,13 @@
             <origin xyz="0 0 0.1" rpy="0 0 0"/>
         </xacro:inertial_box>
     </link>
+    <!-- Fixed joint to attach base_footprint to base_link -->
+    <joint name="base_link_to_base_footprint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0.05" rpy="0 0 0"/>
+    </joint>
+    
 
     <gazebo reference="base_link">
         <material>Gazebo/Red</material>
@@ -235,10 +250,10 @@
             <!-- output -->
             <publish_odom>true</publish_odom>
             <publish_odom_tf>true</publish_odom_tf>
-            <publish_wheel_tf>true</publish_wheel_tf>
+            <publish_wheel_tf>false</publish_wheel_tf>
 
             <odometry_frame>odom</odometry_frame>
-            <robot_base_frame>base_link</robot_base_frame>
+            <robot_base_frame>base_footprint</robot_base_frame>
         </plugin>
     </gazebo>
 
