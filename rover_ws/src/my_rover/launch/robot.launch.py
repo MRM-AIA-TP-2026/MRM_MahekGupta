@@ -21,6 +21,8 @@ def generate_launch_description():
             os.path.join(pkg_share, 'launch', 'display.launch.py')
         )
     )
+
+   
     
     # Add a static transform publisher for the `map -> odom` frame
     static_transform_publisher = Node(
@@ -30,9 +32,17 @@ def generate_launch_description():
         arguments=["0", "0", "0", "0", "0", "0", "map", "odom"],
         parameters=[{'use_sim_time': True}],
     )
+
+    gps = Node(
+        package="my_rover",
+        executable="gps_navigation",
+        name="gps_navigation",
+        parameters=[{'use_sim_time': True}]
+    )
     
     return LaunchDescription([
         gazebo_launch,
         rviz_launch,
-        static_transform_publisher
+        static_transform_publisher,
+        gps
     ])
