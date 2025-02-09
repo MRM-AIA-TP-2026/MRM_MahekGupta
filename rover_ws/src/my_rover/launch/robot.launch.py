@@ -21,6 +21,7 @@ def generate_launch_description():
             os.path.join(pkg_share, 'launch', 'display.launch.py')
         )
     )
+    
 
    
     
@@ -31,13 +32,16 @@ def generate_launch_description():
         name="static_odom_tf_broadcaster",
         arguments=["0", "0", "0", "0", "0", "0", "map", "odom"],
         parameters=[{'use_sim_time': True}],
+
     )
 
     gps = Node(
         package="my_rover",
         executable="gps_navigation",
         name="gps_navigation",
-        parameters=[{'use_sim_time': True}]
+        parameters=[{'use_sim_time': True}],
+        arguments=['--ros-args', '--log-level', 'info'],
+        prefix='gnome-terminal -- bash -c'
     )
     
     return LaunchDescription([
