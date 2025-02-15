@@ -7,6 +7,7 @@ import os
 def generate_launch_description():
     pkg_share = launch_ros.substitutions.FindPackageShare(package='my_rover').find('my_rover')
     default_model_path = os.path.join(pkg_share, 'urdf/robot.urdf.xacro')
+    default_world_path = os.path.join(pkg_share, 'worlds', 'obstacle_world.world')
 
     # Robot State Publisher Node
     robot_state_publisher_node = launch_ros.actions.Node(
@@ -38,8 +39,13 @@ def generate_launch_description():
             default_value=default_model_path,
             description='Absolute path to robot URDF file'
         ),
+        DeclareLaunchArgument(
+            name='world',
+            default_value=default_world_path,
+            description='Absolute path to Gazebo world file'
+        ),
         ExecuteProcess(
-            cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'],
+            cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so', LaunchConfiguration('world')],
             output='screen'
         ),
         joint_state_publisher_node,
